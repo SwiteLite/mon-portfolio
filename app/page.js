@@ -1,5 +1,5 @@
 import styles from "./page.module.css"
-import Tags from './components/Tags.js'
+import Tag from '../components/Tag/Tag'
 
 const technologies = ["C", "Flutter", "Java", "React", "Next.js", "Node.js"]
 
@@ -20,15 +20,15 @@ export default function Home() {
 
         <div className={styles.tagsContainer}>
           {technologies.map((tech, index) => (
-            <Tags key={index} name={tech} />
+              <Tag key={index}>{tech}</Tag>
           ))}
        </div>
 
         <div className={styles.heroButtons}>
-          <a href="#projects" className={`${styles.btn} ${styles.btnPrimary}`}>
+          <a href="projets" className={`${styles.btn} ${styles.btnPrimary}`}>
             Voir mes projets
           </a>
-          <a href="#contact" className={`${styles.btn} ${styles.btnSecondary}`}>
+          <a href="contact" className={`${styles.btn} ${styles.btnSecondary}`}>
             Me contacter
           </a>
         </div>

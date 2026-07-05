@@ -14,3 +14,22 @@ body {
 main {
   min-height: 100vh;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
