@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Intégrateur Web",
+        "slug": "integrateur-web",
+        "description": "Formation en Intégration Web. Apprenez à créer des sites web responsive et accessibles.",
+        "tags": ["Bac +2", "9 mois"],
+        "image": "/images/formations/logo_uca.jpg",
+        "image_size": {
+            "width" : 400,
+            "height" : 400   
+        }
+    },
+    {
+        "id": 2,
+        "title": "Testeur Logiciel",
+        "slug": "testeur-logiciel",
+        "description": "Formation en Test Logiciel. Assurez la qualité des applications avant leur mise en production.",
+        "tags": ["Bac +2", "9 mois"],
+        "image": "https://oc-static.imgix.net/prod/images/paths/illustrations/902/16994361034263_16781163594836_DEV_technicianlogicel.png?auto=compress,format&q=60&w=300&dpr=2",
+        "image_size": {
+            "width" : 400,
+            "height" : 400   
+        }
+    },
+    {
+        "id": 3,
+        "title": "Développeur Low-Code",
+        "slug": "developpeur-low-code",
+        "description": "Formation en Développement Low-Code. Créez des applications rapidement sans coder (ou presque).",
+        "tags": ["Bac +2", "6 mois"],
+        "image": "https://oc-static.imgix.net/prod/images/paths/illustrations/977/17461913883709_path_977%20copie%201-min.png?auto=compress,format&q=60&w=300&dpr=2",
+        "image_size": {
+            "width" : 400,
+            "height" : 400   
+        }
+    }
+]

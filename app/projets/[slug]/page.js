@@ -1,49 +1,39 @@
-import styles from './page.module.css'
+import styles from "./page.module.css";
+import Image from 'next/image'
+import projectsData from "@/data/projects.json";
+import { notFound } from "next/navigation";
 
-// Liste de projets (normalement, ça viendrait d'une API ou d'une base de données)
-const projects = {
-  'portfolio': {
-    title: 'Portfolio Personnel',
-    slug: 'portfolio',
-    description: 'Site web moderne construit avec Next.js, présentant mes projets et compétences de manière interactive.',
-    technologies: ['Next.js', 'React', 'CSS Modules'],
-    image: '/images/portfolio.jpg',
-    github: 'https://github.com/...',
-    demo: 'https://...',
-  },
-  'ecommerce': {
-    title: 'App E-commerce',
-    slug: 'ecommerce',
-    description: 'Application de vente en ligne complète avec gestion du panier, paiement et interface d\'administration.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    image: '/images/ecommerce.jpg',
-    github: 'https://github.com/...',
-    demo: 'https://...',
-  },
-  'blog': {
-    title: 'Blog Technique',
-    slug: 'blog',
-    description: 'Blog personnel sur le développement web avec système de commentaires et gestion de contenu Markdown.',
-    technologies: ['Next.js', 'Markdown', 'SEO', 'RSS'],
-    image: '/images/blog.jpg',
-    github: 'https://github.com/...',
-    demo: 'https://...',
-  },
+
+export async function generateMetadata({ params }) {
+    const { slug } = await params
+    const project = projectsData.find(p => p.slug === slug)
+
+    if (!project) {
+        return {
+            title: 'Projet non trouvé',
+        }
+    }
+
+    return {
+        title: `${project.title} | Portfolio`,
+        description: project.longDescription,
+        openGraph: {
+            title: project.title,
+            description: project.shortDescription,
+            images: [project.image],
+        },
+    }
 }
+
 
 export default async function ProjectDetail({ params }) {
   const { slug } = await params
   // Next.js passe automatiquement le slug dans params
-  const project = projects[slug]
+  const project = projectsData.find((project) => project.slug === slug);
 
   // Si le projet n'existe pas, afficher un message
   if (!project) {
-      return (
-          <div className="container">
-              <h1>Projet non trouvé</h1>
-              <p>Ce projet n&apos;existe pas ou a été supprimé.</p>
-          </div>
-      )
+    notFound();
   }
 
   return (
@@ -55,15 +45,21 @@ export default async function ProjectDetail({ params }) {
 
           <div className={styles.content}>
               <div className={styles.imageWrapper}>
-                  <div className={styles.imagePlaceholder}>
-                      Image du projet
-                  </div>
+              <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={800}
+                    height={500}
+                    className={styles.image}
+                    preload={true}
+                />
+
               </div>
 
               <div className={styles.details}>
                   <h2>Technologies utilisées</h2>
                   <div className={styles.technologies}>
-                      {project.technologies.map((tech, index) => (
+                      {project.tags.map((tech, index) => (
                           <span key={index} className={styles.tech}>
                               {tech}
                           </span>
@@ -93,3 +89,10 @@ export default async function ProjectDetail({ params }) {
       </div>
   )
 }
+
+export function generateStaticParams() {
+    return projectsData.map((project) => ({
+        slug: project.slug,
+    }))
+ }
+ 

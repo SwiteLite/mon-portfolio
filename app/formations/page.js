@@ -1,38 +1,44 @@
-import styles from './page.module.css'
-import Link from 'next/link'
-import Tag from '@/components/Tag/Tag'
+import Link from "next/link";
+import styles from "./page.module.css";
+import formationsData from '@/data/formations.json'
+import Image from 'next/image'
 
-export default function Projects() {
+export default function Formations() {
   return (
-    <div className="container">
-      <h1 className="title">Formations et Diplômes </h1>
-      <p className="description">
-        Découvrez mon parcours univsersitaire
+    <div className={styles.container}>
+      <h1 className={styles.title}>Mes Formations</h1>
+      <p className={styles.description}>
+        Découvrez les parcours diplômants d&apos;OpenClassrooms
       </p>
 
       <div className={styles.grid}>
-        <div className={styles.card}>
-          <h2>2020 - 2022 :  Université Clermont-Auvergne</h2>
-          <p>Master Systèmes Embarqués pour le Traitement du Signal,
-          des Images et du Son</p>
-          <div className={styles.tags}>
-            <Tag>Systèmes Embarqués</Tag>
-            <Tag>Traitement du signal</Tag>
-            <Tag>Machine Learning et IA</Tag>
-          </div>
-        </div>
+        {formationsData.map((formation) => (
+          <Link
+            href={`/formations/${formation.slug}`}
+            key={formation.id}
+            className={styles.card}
+          >
 
-        <div className={styles.card}>
-          <h2>2017 - 2020 : Université d’Orléans</h2>
-          <p>Licence de Physique spécialisée Sciences de l’Ingénieur</p>
-          <div className={styles.tags}>
-            <Tag>Traitement du signal</Tag>
-            <Tag>Simulation </Tag>
-            <Tag>Electronique </Tag>
-          </div>
-        </div>
-
+        <div className={styles.imageWrapper}>
+            <Image
+                  src={formation.image}
+                  alt={formation.title}
+                  width={formation.image_size.width}
+                  height={formation.image_size.height}
+                  className={styles.image}
+              />
+            </div>
+            <h2>{formation.title}</h2>
+            <p>{formation.description}</p>
+            <div className={styles.tags}>
+              {formation.tags.map((tag, index) => (
+                <span key={index}>{tag}</span>
+              ))}
+            </div>
+            <span className={styles.viewMore}>Voir la formation →</span>
+          </Link>
+        ))}
       </div>
     </div>
-  )
+  );
 }
