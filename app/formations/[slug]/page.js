@@ -55,6 +55,12 @@ export default async function FormationDetail({ params }) {
 
         <div className={styles.details}>
           <h2>Détails</h2>
+
+          <p>{formation.longDescription}</p>
+          <div className={styles.period}>
+            test
+          </div>
+
           <div className={styles.technologies}>
             {formation.tags.map((detail, index) => (
               <span key={index} className={styles.tech}>

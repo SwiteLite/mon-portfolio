@@ -9,9 +9,12 @@ export default function About() {
         <div className={styles.bio}>
           <h2>Qui suis-je ?</h2>
           <p>
-            Développeur web passionné avec 3 ans d&apos;expérience dans la création
-            d&apos;applications modernes et performantes. Spécialisé dans l&apos;écosystème
-            React et Next.js.
+           Ingénieur logiciel avec 4 ans d&apos;expérience en startup. 
+           Mon expertise n&apos;est pas liée à un seul langage, 
+           mais à la compréhension du besoin et à l&apos;architecture globale :
+           du traitement du signal et de l&apos;embarqué aux applications mobiles et au backend. 
+           Je transforme un besoin en produit, du prototype à la mise en production. 
+           Aujourd&apos;hui j&apos;élargis mon profil vers le web moderne (React, Next.js).
           </p>
           <p>
             J&apos;aime transformer des idées en produits concrets qui résolvent
@@ -23,32 +26,49 @@ export default function About() {
           <h2>Compétences</h2>
           <div className={styles.skillGrid}>
             <div className={styles.skillCategory}>
-              <h3>Frontend</h3>
+              <h3>Mobile & Full Stack</h3>
               <ul>
-                <li>React & Next.js</li>
-                <li>JavaScript ES6+</li>
-                <li>HTML5 & CSS3</li>
-                <li>Responsive Design</li>
+                <li>Flutter</li>
+                <li>Java (Android) </li>
+                <li>React & Next.js (en formation)</li>
+                <li>HTML5 / CSS3</li>
               </ul>
             </div>
             
             <div className={styles.skillCategory}>
-              <h3>Backend</h3>
+              <h3>Backend et data</h3>
               <ul>
-                <li>Node.js & Express</li>
-                <li>API REST</li>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
+                <li>Node.js</li>
+                <li>TCP/IP, MQTT</li>
+                <li>API REST, WebSocke</li>
+                <li>PostgreSQL/PostGIS</li>
               </ul>
             </div>
 
             <div className={styles.skillCategory}>
-              <h3>Outils</h3>
+              <h3>Embarqué & IoT</h3>
               <ul>
-                <li>Git & GitHub</li>
-                <li>VS Code</li>
-                <li>Figma</li>
-                <li>Postman</li>
+                <li>C (embarqué)</li>
+                <li>ESP32, ESP-IDF</li>
+                <li>FreeRTOS</li>
+                <li>WiFi, UART, I2S, MQTT</li>
+                <li>Site web embarqué (HTML/CSS/JS)</li>
+              </ul>
+            </div>
+            <div className={styles.skillCategory}>
+              <h3>Traitement du signal et R&D</h3>
+              <ul>
+                <li>Python (analyse de signaux, features)</li>
+                <li>Machine Learning</li>
+                <li>Algorithmes temps réel (embarqué)</li>
+              </ul>
+            </div>
+            <div className={styles.skillCategory}>
+              <h3>Outils et environnements</h3>
+              <ul>
+                <li>Git (Gitlab), Jira, Figma</li>
+                <li>VS Code, Android Studio, Cursor</li>
+                <li>Linux</li>
               </ul>
             </div>
           </div>

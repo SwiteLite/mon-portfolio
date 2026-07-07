@@ -20,7 +20,7 @@ export default function Navigation() {
 
   return (
     <nav className={styles.nav}>
-      <div className="container">
+      <div className={styles.navContainer}>
         <Link href="/" className={styles.logo} onClick={closeMenu}>
           Mon Portfolio
         </Link>

@@ -53,37 +53,40 @@ export default async function ProjectDetail({ params }) {
                     className={styles.image}
                     preload={true}
                 />
-
               </div>
-
+        
               <div className={styles.details}>
-                  <h2>Technologies utilisées</h2>
-                  <div className={styles.technologies}>
-                      {project.tags.map((tech, index) => (
-                          <span key={index} className={styles.tech}>
-                              {tech}
-                          </span>
-                      ))}
-                  </div>
+                <h2>Description</h2>
+                <div className={styles.longDescription}>
+                   <p>{project.longDescription}</p>
+                </div>
+                <h2>Technologies utilisées</h2>
+                <div className={styles.technologies}>
+                    {project.tags.map((tech, index) => (
+                        <span key={index} className={styles.tech}>
+                            {tech}
+                        </span>
+                    ))}
+                </div>
 
-                  <div className={styles.links}>
-                      <a
-                          href={project.github}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={styles.link}
-                      >
-                          Voir le code →
-                      </a>
-                      <a
-                          href={project.demo}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={`${styles.link} ${styles.linkPrimary}`}
-                      >
-                          Voir la démo →
-                      </a>
-                  </div>
+                <div className={styles.links}>
+                    <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.link}
+                    >
+                        Voir le code →
+                    </a>
+                    <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`${styles.link} ${styles.linkPrimary}`}
+                    >
+                        Voir la démo →
+                    </a>
+                </div>
               </div>
           </div>
       </div>

@@ -19,15 +19,22 @@ export default function Formations() {
             className={styles.card}
           >
 
-        <div className={styles.imageWrapper}>
-            <Image
-                  src={formation.image}
-                  alt={formation.title}
-                  width={formation.image_size.width}
-                  height={formation.image_size.height}
-                  className={styles.image}
-              />
-            </div>
+           <div className={styles.header}>
+          
+                  <div className={styles.period}>
+                    <span>{formation.period}</span>
+                  </div>
+                </div>
+
+                <div className={styles.imageWrapper}>
+                <Image
+                    src={formation.image}
+                    alt={formation.title}
+                    width={formation.image_size.width}
+                    height={formation.image_size.height}
+                    className={styles.image}
+                />
+                </div>
             <h2>{formation.title}</h2>
             <p>{formation.description}</p>
             <div className={styles.tags}>

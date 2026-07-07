@@ -11,7 +11,7 @@ export default function Home() {
           Bonjour, je suis <span className={styles.highlight}>Paul André</span>
         </h1>
         <p className={styles.heroSubtitle}>
-          Développeur Full Stack IoT
+          Ingénieur Logiciel Full Stack IoT
         </p>
         <p className={styles.heroDescription}>
           Je crée des applications web modernes, performantes et accessibles

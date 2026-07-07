@@ -8,8 +8,25 @@ import projectsData from '@/data/projects.json'
 export const metadata = {
     title: 'Mes Projets | Portfolio',
     description: 'Découvrez mes projets de développement web : applications React, sites Next.js et plus encore.',
-  }
-  
+}
+
+const sections = [
+  {
+    id: 'experience-pro',
+    title: 'Expériences professionnelles',
+    subtitle: 'Produits livrés en CDI et en projet collaboratif',
+  },
+  {
+    id: 'stage',
+    title: 'Stages',
+    subtitle: 'Premières missions en entreprise',
+  },
+  {
+    id: 'academique',
+    title: 'Projets académiques',
+    subtitle: 'Master traitement du signal & systèmes embarqués',
+  },
+]  
 
 export default function Projects() {
   return (
@@ -26,27 +43,36 @@ export default function Projects() {
                   key={project.id}
                   className={styles.card}
               >
-                  <div className={styles.imageWrapper}>
-                  <Image
-                        src={project.image}
-                        alt={project.title}
-                        width={220}
-                        height={500}
-                        className={styles.image}
-                    />
+                <div className={styles.header}>
+                  <div className={styles.contract}>
+                    <span>{project.contract}</span>
+                  </div>
+                  <div className={styles.period}>
+                    <span>{project.period}</span>
+                  </div>
+                </div>
 
-                  </div>
-                  <div className={styles.content}>
-                      <h2>{project.title}</h2>
-                      <p>{project.shortDescription}</p>
-                      <div className={styles.tags}>
-                          {project.tags.map((tech, index) => (
-                              <Tag key={index} isDark={true}>{tech}</Tag>
-                          ))}
-                      </div>
-                      <span className={styles.viewMore}>Voir le projet →</span>
-                  </div>
-              </Link>
+                <div className={styles.imageWrapper}>
+                <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={project.image_size.width}
+                    height={project.image_size.height}
+                    className={styles.image}
+                />
+
+                </div>
+                <div className={styles.content}>
+                    <h2>{project.title}</h2>
+                    <p>{project.shortDescription}</p>
+                    <div className={styles.tags}>
+                        {project.tags.map((tech, index) => (
+                            <Tag key={index} isDark={true}>{tech}</Tag>
+                        ))}
+                    </div>
+                    <span className={styles.viewMore}>Voir le projet →</span>
+                </div>
+            </Link>
           ))}
       </div>
 
