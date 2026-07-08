@@ -40,7 +40,7 @@ export default async function ProjectDetail({ params }) {
       <div className={styles.container}>
           <div className={styles.header}>
               <h1 className={styles.title}>{project.title}</h1>
-              <p className={styles.description}>{project.description}</p>
+              <p className={styles.description}>{project.shortDescription}</p>
           </div>
 
           <div className={styles.content}>
@@ -60,6 +60,16 @@ export default async function ProjectDetail({ params }) {
                 <div className={styles.longDescription}>
                    <p>{project.longDescription}</p>
                 </div>
+                {project.bulletPoints?.length > 0 && (
+                  <>
+                    <h2>Points clés</h2>
+                    <div className={styles.bulletPoints}>
+                      {project.bulletPoints.map((point, index) => (
+                        <p key={index}> - {point}</p>
+                      ))}
+                    </div>
+                  </>
+                )}
                 <h2>Technologies utilisées</h2>
                 <div className={styles.technologies}>
                     {project.tags.map((tech, index) => (
@@ -68,25 +78,41 @@ export default async function ProjectDetail({ params }) {
                         </span>
                     ))}
                 </div>
-
-                <div className={styles.links}>
-                    <a
+                
+                {(project.github || project.demo || project.link) && (
+                  <div className={styles.links}>
+                    {project.github && (
+                      <a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.link}
-                    >
+                      >
                         Voir le code →
-                    </a>
-                    <a
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`${styles.link} ${styles.linkPrimary}`}
-                    >
+                      >
                         Voir la démo →
-                    </a>
-                </div>
+                      </a>
+                    )}
+                    {project.link && project.link_text && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`${styles.link} ${styles.linkPrimary}`}
+                      >
+                        Voir {project.link_text} →
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
           </div>
       </div>

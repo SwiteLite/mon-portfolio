@@ -17,69 +17,73 @@ export default function Navigation() {
   const closeMenu = () => {
     setIsOpen(false)
   }
-
+0
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.navigation}>
       <div className={styles.navContainer}>
-        <Link href="/" className={styles.logo} onClick={closeMenu}>
-          Mon Portfolio
-        </Link>
+        <div className={styles.logoContainer}>
+          <Link href="/" className={styles.logo} onClick={closeMenu}>
+            Mon Portfolio
+          </Link>
+        </div>
 
-        {/* Bouton burger pour mobile */}
-        <button
-          className={styles.burger}
-          onClick={toggleMenu}
-          aria-label="Menu"
-        >
-          {isOpen ? <HiX size={28} /> : <HiMenu size={28} />}
-        </button>
-        
-        <ul className={`${styles.menu} ${isOpen ? styles.menuOpen : ''}`}>
-          <li>
-            <Link href="/" 
-              className={pathname === '/' ? `${styles.link} ${styles.active}` : styles.link}
-              onClick={closeMenu}
-            >
-              Accueil
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/projets" 
-              className={pathname === '/projets' ? `${styles.link} ${styles.active}` : styles.link}
-              onClick={closeMenu}
-            >
-              Projets
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/formations" 
-              className={pathname === '/formations' ? `${styles.link} ${styles.active}` : styles.link}
-              onClick={closeMenu}
-            >
-              Formations
-            </Link>
-          </li>
-          <li>
-            <Link 
-              href="/a-propos" 
-              className={pathname === '/a-propos' ? `${styles.link} ${styles.active}` : styles.link}
-              onClick={closeMenu}
-            >
-              À propos
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" 
-            className={pathname === '/contact' ? `${styles.link} ${styles.active}` : styles.link}
-            onClick={closeMenu}
-            >
-              Contact
-            </Link>
-          </li>
+        <div className={styles.burgerContainer}>
+          {/* Bouton burger pour mobile */}
+          <button
+            className={styles.burger}
+            onClick={toggleMenu}
+            aria-label="Menu"
+          >
+            {isOpen ? <HiX size={28} /> : <HiMenu size={28} />}
+          </button>
           
-        </ul>
+          <ul className={`${styles.menu} ${isOpen ? styles.menuOpen : ''}`}>
+            <li>
+              <Link href="/" 
+                className={pathname === '/' ? `${styles.link} ${styles.active}` : styles.link}
+                onClick={closeMenu}
+              >
+                Accueil
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/projets" 
+                className={pathname === '/projets' ? `${styles.link} ${styles.active}` : styles.link}
+                onClick={closeMenu}
+              >
+                Projets
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/formations" 
+                className={pathname === '/formations' ? `${styles.link} ${styles.active}` : styles.link}
+                onClick={closeMenu}
+              >
+                Formations
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/a-propos" 
+                className={pathname === '/a-propos' ? `${styles.link} ${styles.active}` : styles.link}
+                onClick={closeMenu}
+              >
+                À propos
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" 
+              className={pathname === '/contact' ? `${styles.link} ${styles.active}` : styles.link}
+              onClick={closeMenu}
+              >
+                Contact
+              </Link>
+            </li>
+            
+          </ul>
+        </div>
     
       </div>
     </nav>

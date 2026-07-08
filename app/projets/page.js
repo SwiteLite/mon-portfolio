@@ -1,8 +1,8 @@
 import styles from './page.module.css'
 import Link from 'next/link'
-import Tag from '@/components/Tag/Tag'
-import Image from 'next/image'
+
 import projectsData from '@/data/projects.json'
+import ProjectCard from '@/components/ProjectCard/ProjectCard'
 
 
 export const metadata = {
@@ -12,9 +12,9 @@ export const metadata = {
 
 const sections = [
   {
-    id: 'experience-pro',
+    id: 'professionnel',
     title: 'Expériences professionnelles',
-    subtitle: 'Produits livrés en CDI et en projet collaboratif',
+    subtitle: 'Produits livrés en entreprise',
   },
   {
     id: 'stage',
@@ -26,7 +26,7 @@ const sections = [
     title: 'Projets académiques',
     subtitle: 'Master traitement du signal & systèmes embarqués',
   },
-]  
+] 
 
 export default function Projects() {
   return (
@@ -36,45 +36,29 @@ export default function Projects() {
         Découvrez les projets sur lesquels j&apos;ai travaillé
       </p>
 
-      <div className={styles.grid}>
-          {projectsData.map((project) => (
-              <Link
+      {sections.map((section) => {
+        const projects = projectsData.filter(p => p.category === section.id)
+        if (projects.length === 0) return null
+
+        return (
+          <section key={section.id} className={styles.section}>
+            <h2 className={styles.sectionTitle}>{section.title}</h2>
+            <p className={styles.sectionSubtitle}>{section.subtitle}</p>
+            
+            <div className={styles.grid}>
+              {projects.map((project) => (
+                <Link
                   href={`/projets/${project.slug}`}
                   key={project.id}
                   className={styles.card}
-              >
-                <div className={styles.header}>
-                  <div className={styles.contract}>
-                    <span>{project.contract}</span>
-                  </div>
-                  <div className={styles.period}>
-                    <span>{project.period}</span>
-                  </div>
-                </div>
-
-                <div className={styles.imageWrapper}>
-                <Image
-                    src={project.image}
-                    alt={project.title}
-                    width={project.image_size.width}
-                    height={project.image_size.height}
-                    className={styles.image}
-                />
-
-                </div>
-                <div className={styles.content}>
-                    <h2>{project.title}</h2>
-                    <p>{project.shortDescription}</p>
-                    <div className={styles.tags}>
-                        {project.tags.map((tech, index) => (
-                            <Tag key={index} isDark={true}>{tech}</Tag>
-                        ))}
-                    </div>
-                    <span className={styles.viewMore}>Voir le projet →</span>
-                </div>
-            </Link>
-          ))}
-      </div>
+                >
+                  <ProjectCard project={project} />
+                </Link>
+              ))}
+            </div>
+            </section>
+            )
+      })}
 
     </div>
   )

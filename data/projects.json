@@ -9,129 +9,151 @@
       "role": "Développeur Full Stack mobile",
       "period": "2025 - 2026",
       "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "TaskFlow est une application web moderne qui permet de gérer efficacement ses tâches quotidiennes. Elle offre un système de priorités avec code couleur, des notifications de deadline, et la possibilité de créer des catégories personnalisables. L'interface intuitive permet de glisser-déposer les tâches pour les réorganiser rapidement.",
+      "longDescription": "Conception full-stack d'une application de sécurité personnelle (Flutter,iOS/Android) : définition des besoins, architecture globale et UI/UX design",
+      "bulletPoints": [
+        "Développement mobile Flutter",
+        "Création d'une interface utilisateur intuitive et fonctionnelle",
+        "Architecture temps réel client-serveur (WebSocket), backend Node.js avec base de données PostgreSQL/PostGIS",
+        "MVP en cours de déploiement auprès de premiers utilisateurs"
+      ],
+      
       "image": "/images/projets/safetizen.png",
       "image_size": {
         "width" : 1080,
         "height" : 2408   
       },
-      "tags": ["Flutter", "Node.js", "WebSocket"],
+      "tags": ["Flutter", "iOS", "Android", "Node.js", "WebSocket"],
       "github": "https://github.com/votre-username/taskflow",
       "demo": "https://taskflow-demo.vercel.app",
+      "link": null,
+      "link_text": null,
       "featured": true
     },
     {
       "id": 2,
       "slug": "sensivic-mobile",
-      "title": "Sensivic - Développement full-stack d’une application mobile Android (Java)",
-      "contract": "CDI",
+      "title": "Application mobile Android de sécurité B2B",
+      "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
       "role": "Développeur Full Stack mobile",
       "period": "2022 - 2025",
-      "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Développement full stack et maintenance d’une solution mobile Android (Java) de sécurité personnelle destinée au BtB. L'application intégre un module C embarqué pour la détection d’agressions verbales. ",
+      "shortDescription": "Application Android (Java) de sécurité déployée sur le Play Store, avec détection d'agressions verbales en temps réel.",
+      "longDescription": "Développement full-stack et maintenance d'une solution mobile Android destinée au B2B. L'application s'appuie sur un module natif C pour la détection d'agressions verbales et communique en temps réel avec l'infrastructure backend via MQTT.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["Java", "Node.js", "WebSocket", "MQTT"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
+      "tags": ["Java", "Android", "MQTT", "C", "JNI"],
+      "bulletPoints": [
+        "Développement et maintenance de l'application Android (Java), déployée sur le Play Store.",
+        "Intégration d'un module C embarqué pour la détection d'agressions verbales en temps réel.",
+        "Refonte visuelle des applications Manager et Équipier.",
+        "Maintenance corrective et évolutions fonctionnelles sur les deux applications.",
+        "Amélioration de la communication MQTT entre managers et équipiers."
+      ],
+      "github": null,
+      "demo": null,
+      "link": null,
+      "link_text": null,
       "featured": true
     },
     {
       "id": 3,
-      "slug": "sensivic-embarque",
-      "title": "Sensivic - Logicel Embarqué et traitement du signal sonore",
-      "contract": "CDI",
+      "slug": "sensivic-iot",
+      "title": "Architecture de détecteurs IoT WiFi",
+      "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
-      "role": "Développeur Full Stack mobile",
+      "role": "Ingénieur IoT & embarqué",
       "period": "2022 - 2025",
-      "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Conception et intégration embarquée d’algorithmes brevetés de détection d’anomalies sonores en temps réel (Python → C), optimisés pour les contraintes CPU/mémoire de l'ESP32 (FreeRTOS)",
+      "shortDescription": "Conception d'une solution embarquée communicante WiFi sur ESP32",
+      "longDescription": "Architecture de détecteurs IoT sur ESP32 (TCP/IP, WiFi) et backend Node.js : pilotage du cycle de vie complet, des spécifications au déploiement.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["Java", "Node.js", "WebSocket"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
+      "tags": ["C", "ESP32", "ESP-IDF", "FreeRTOS", "Node.js", "TCP/IP", "WiFi"],
+      "bulletPoints": [
+        "Développement d'un serveur de communication TCP pour la réception des données et la configuration à distance des détecteurs", 
+        "Communication TCP/IP sécurisée par chiffrement AES-256",
+        "Développement d’un site web de paramétrage embarqué",
+        "Intégration de FreeRTOS (tâches, synchronisation, watchdog, optimisation CPU),"
+      ],
+      "github": null,
+      "demo": null,
+      "link": null,
+      "link_text": null,
       "featured": true
     },
     {
       "id": 4,
-      "slug": "sensivic-iot",
-      "title": "Sensivic - Architecture de détecteurs IoT sur ESP32",
-      "contract": "CDI",
+      "slug": "sensivic-signal",
+      "title": "R&D & traitement du signal sonore",
+      "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
-      "role": "Développeur Full Stack mobile",
+      "role": "Ingénieur R&D",
       "period": "2022 - 2025",
-      "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Conception et intégration embarquée d’algorithmes brevetés de détection d’anomalies sonores en temps réel (Python → C), optimisés pour les contraintes CPU/mémoire de l'ESP32 (FreeRTOS)",
+      "shortDescription": "Modélisation et détection d'anomalies sonores en temps réel et co-inventeur du brevet FR3161978.",
+      "longDescription": "R&D sur la détection d'événements sonores (agressions verbales, cris, coups de feu, intrusions) : modélisation en Python, portage et optimisation des algorithmes brevetés vers l'embarqué (ESP32) et le mobile (Android).",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["C", "Node.js", "WebSocket"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
+      "tags": ["Python", "C", "Machine Learning", "ESP32", "Android"],
+      "bulletPoints": [
+        "Définition de modèles d'anomalies sonores : agressions verbales, cris de panique, coups de feu, intrusions.",
+        "Traitement du signal en Python : analyse, extraction de features et méthodes de machine learning.",
+        "Conception et intégration embarquée d’algorithmes brevetés de détection d’anomalies sonores en temps réel (Python → C), optimisés pour les contraintes CPU/mémoire de l'ESP32 ou du mobile Android",
+        "Campagnes terrain : acquisition sonore, tests prototypes, analyse et rédaction de rapports.",
+        "Portage Python → C des algorithmes brevetés (FR3161978), optimisés pour le temps réel."
+    
+      ],
+      "link": "https://data.inpi.fr/brevets/FR3161978?q=#FR3161978",
+      "link_text": "le Brevet FR3161978",
+      "demo": null,
       "featured": true
     },
-    {
+    { 
       "id": 5,
-      "slug": "sensivic-platform",
-      "title": "Sensivic - Outils de supervision ",
-      "contract": "CDI",
+      "slug": "sensivic-tools",
+      "title": "Outils internes & prototypes",
+      "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
-      "role": "Développeur Full Stack mobile",
+      "role": "Ingénieur logiciel — outillage & prototypes",
       "period": "2022 - 2025",
-      "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Conception d'outils de supervision et de configuration Web et Windows (Flutter) pour la gestion des dispositifs IoT",
+      "shortDescription": "Outils et prototypes pour la R&D, la production et l'exploitation du parc de détecteurs — en complément des produits finaux.",
+      "longDescription": "Au fil de mon CDI, j'ai conçu de nombreux outils et prototypes pour accélérer le développement, la mise en production et la maintenance des solutions Sensivic. Il ne s'agit pas de produits commercialisés, mais d'applications, scripts et interfaces internes qui soutiennent les équipes R&D, production et support technique.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["Flutter", "Node.js", "WebSocket"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
-      "featured": true
-    },
-
-    {
-      "id": 6,
-      "slug": "sensivic-platform",
-      "title": "Sensivic - Outils de supervision ",
-      "contract": "CDI",
-      "category": "professionnel",
-      "company": "Sensivic",
-      "role": "Développeur Full Stack mobile",
-      "period": "2025 - 2026",
-      "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Conception d'outils de supervision et de configuration Web et Windows (Flutter) pour la gestion des dispositifs IoT",
-      "image": "/images/projets/sensivic_logo.jpg",
-      "image_size": {
-        "width" : 200,
-        "height" : 200   
-      },
-      "tags": ["Flutter", "Node.js", "WebSocket"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
+      "tags": ["Flutter", "Node.js", "Python", "C", "Windows", "Linux"],
+      "bulletPoints": [
+        "Conception d'un prototype de l'application mobile Qilpi Manager Windwows avec Flutter",
+        "Développement non achevé d'une interface Flutter (Web et Windows) de configuration et de supervision d'un parc de détecteurs IoT",
+        "Outils internes de production : flashage firmware, identification et traçabilité des détecteurs.",
+        "Scripts et outils Python pour l'analyse de signaux et le support aux campagnes d'acquisition audio et de tests R&D.",
+        "Rédaction de documentation technique et de tutoriels d'utilisation pour les équipes et les clients."
+      ],
+      "github": null,
+      "demo": null,
+      "link": null,
+      "link_text": null,
       "featured": true
     },
 
     {
       "id": 7,
       "slug": "sensivic-stage",
-      "title": "Sensivic -  ",
-      "contract": "Stage",
+      "title": "Migration firmware STM32 → ESP32",
+      "contract": "Sensivic - Stage",
       "category": "stage",
       "company": "Sensivic",
       "role": "Ingénieur Systèmes Embarqués",
@@ -143,17 +165,25 @@
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["Flutter", "Node.js", "WebSocket"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
+      "tags": ["C", "ESP32", "STM32", "ESP-IDF", "I2S"],
+      "bulletPoints": [
+        "Migration du firmware de traitement du son de STM32 vers ESP32 (ESP-IDF, C).",
+        "Acquisition du signal sonore via le protocole I2S.",
+        "Développement d'un site web embarqué (HTML) sur ESP32.",
+        "Analyse et étude de signaux sonores en conditions réelles."
+      ],
+      "github": null,
+      "demo": null,
+      "link": null,
+      "link_text": null,
       "featured": true
     },
 
     {
       "id": 8,
       "slug": "cilas-stage",
-      "title": "Cilas - Développement d'une IHM et asservissement moteur",
-      "contract": "Stage",
+      "title": "Développement d'une IHM et asservissement moteur",
+      "contract": "Cilas - Stage",
       "category": "stage",
       "company": "Cilas",
       "role": "Ingénieur Informatique et automatique",
@@ -168,6 +198,8 @@
       "tags": ["Arduino", "C++", "C#"],
       "github": "https://github.com/votre-username/taskflow",
       "demo": "https://taskflow-demo.vercel.app",
+      "link": null,
+      "link_text": null,
       "featured": true
     },
 
@@ -181,15 +213,23 @@
       "role": "..",
       "period": "2022",
       "shortDescription": "Localisation et détection de sons sur Raspberry Pi 3",
-      "longDescription": "",
+      "longDescription": "Conception d'un système embarqué sur Raspberry Pi 3 combinant traitement du signal et intelligence artificielle afin de détecter, analyser et exploiter des informations sonores en temps réel.",
+      "bulletPoints": [
+        "Localisation d'une source sonore avec une carte ReSpeaker",
+        "Pilotage d'un moteur pas à pas selon la direction du son",
+        "Développement d'un modèle IA de type CNN pour reconnaître 50 types de sons (animaux, environnement, bruits domestiques, véhicules, etc...)",
+        "Déploiement du modèle sur Raspberry Pi (~72 % de précision)"
+      ],
+
       "image": "/images/projets/projet_master2.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
       "tags": ["Python", "Tensorflow", "Keras", "Pydub", "Librosa", "Pyaudio"],
-      "github": "https://github.com/votre-username/taskflow",
       "demo": "https://www.youtube.com/watch?v=8-gWqG3WkFg",
+      "link": null,
+      "link_text": null,
       "featured": true
     },
     {
@@ -202,15 +242,23 @@
       "role": "..",
       "period": "2021",
       "shortDescription": "Instrument de musique par détection de mouvements de mains sur Raspberry Pi",
-      "longDescription": "TaskFlow est une application web moderne qui permet de gérer efficacement ses tâches quotidiennes. Elle offre un système de priorités avec code couleur, des notifications de deadline, et la possibilité de créer des catégories personnalisables. L'interface intuitive permet de glisser-déposer les tâches pour les réorganiser rapidement.",
+      "longDescription": "Ce projet, intitulé 'Hand Up Sound', vise à concevoir un instrument de musique numérique (type synthétiseur) implémenté sur un Raspberry Pi 3. L'instrument permet de jouer les notes d'une octave en détectant en temps réel la position des mains de l'utilisateur via une caméra. Le système s'appuie sur des scripts Python combinant la gestion sonore avec Sonic Pi et la vision par ordinateur avec OpenCV",
+      "bulletPoints": [
+        "Contrôles : La main gauche joue do-ré-mi-fa, la main droite joue sol-la-si-do",
+        "Technologie : Détection d'image en temps réel avec OpenCV via un classifieur en cascade de Haar",
+        "Entraînement : Modèle entraîné sur Cascade Trainer GUI avec 1 790 images positives et 2 314 images négatives",
+        "Axes d'amélioration : Améliorer la détection sur arrière-plan complexe et passer de la bibliothèque pynput à pygame pour mieux gérer la durée des notes."
+      ],
       "image": "/images/projets/hand_up_sound.png", 
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
       "tags": ["Raspberry Pi", "Python", "Sonic Pi", "OpenCV"],
-      "github": "https://github.com/votre-username/taskflow",
+    
       "demo": "https://www.youtube.com/watch?v=HprN9ELDX3g",
+      "link": null,
+      "link_text": null,
       "featured": true
     }
   ]

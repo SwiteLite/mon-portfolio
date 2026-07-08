@@ -1,21 +1,35 @@
 import styles from "./page.module.css"
 import Tag from '../components/Tag/Tag'
+import Image from 'next/image'
 
-const technologies = ["C", "Flutter", "Java", "React", "Next.js", "Node.js"]
+const technologies = ["C", "Flutter", "Java", "Node.js", "Python", "React"]
 
 export default function Home() {
   return (
     <div className={styles.hero}>
       <div className={styles.heroContent}>
+        <div className={styles.imageWrapper}>
+
+        <Image
+            src="/images/accueil/paul_andre.jpg"
+            alt="Paul André"
+            width={800}
+            height={500}
+            className={styles.image}
+            preload={true}
+          />
+        </div>
+
+      
+        
         <h1 className={styles.heroTitle}>
           Bonjour, je suis <span className={styles.highlight}>Paul André</span>
         </h1>
         <p className={styles.heroSubtitle}>
-          Ingénieur Logiciel Full Stack IoT
+          Ingénieur Logiciel 
         </p>
         <p className={styles.heroDescription}>
-          Je crée des applications web modernes, performantes et accessibles
-          avec React, Next.js et Node.js.
+          Je crée des produits logiciels de bout en bout. Mon profil est surtout orienté systèmes embarqués, mobile et backend, mais depuis je l'élargis aux applications web modernes.
         </p>
 
         <div className={styles.tagsContainer}>
