@@ -8,13 +8,13 @@
   .skills h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #364AB0;
+    color: var(--color-primary);
   }
   
   .bio p {
     font-size: 1.125rem;
     line-height: 1.8;
-    color: #666;
+    color: var(--color-text-muted);
     margin-bottom: 1rem;
   }
   
@@ -25,16 +25,16 @@
   }
   
   .skillCategory {
-    background: white;
+    background: var(--color-primary);
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-sm);
   }
   
   .skillCategory h3 {
+    color: var(--color-accent);
     font-size: 1.25rem;
     margin-bottom: 1rem;
-    color: #333;
   }
   
   .skillCategory ul {
@@ -43,7 +43,7 @@
   
   .skillCategory li {
     padding: 0.5rem 0;
-    color: #666;
+    color: var(--color-text-inverse);
     position: relative;
     padding-left: 1.5rem;
   }
@@ -52,6 +52,6 @@
     content: "✓";
     position: absolute;
     left: 0;
-     color: #364AB0;
+     color: var(--color-text-inverse);
     font-weight: bold;
   }

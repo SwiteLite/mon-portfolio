@@ -13,12 +13,12 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .description {
   font-size: 1.25rem;
-  color: #666;
+  color: var(--color-text-muted);
   line-height: 1.8;
 }
 
@@ -29,7 +29,7 @@
 
 .imageWrapper {
   width: 100%;
-  height: 500px;              /* hauteur max fixe pour toutes les cartes */
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,31 +40,31 @@
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: contain;        /* ratio préservé, rien n'est écrasé */
+  object-fit: contain;
 }
 
 .imagePlaceholder {
   width: 100%;
   height: 400px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--gradient-hero);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--color-text-inverse);
   font-size: 1.5rem;
 }
 
 .details {
-  background: white;
+  background: var(--color-bg-card);
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-md);
 }
 
 .details h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #667eea;
+  color: var(--color-secondary);
 }
 
 .technologies {
@@ -75,11 +75,11 @@
 }
 
 .tech {
-  background: #f0f0f0;
+  background: var(--color-bg-muted);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.875rem;
-  color: #555;
+  color: var(--color-text-light);
 }
 
 .links {
@@ -94,8 +94,8 @@
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  border: 2px solid #667eea;
-  color: #667eea;
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 .link:hover {
@@ -103,21 +103,21 @@
 }
 
 .linkPrimary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: var(--gradient-hero);
+  color: var(--color-text-inverse);
   border: none;
 }
 .longDescription {
   margin-bottom: 2rem;
   font-size: 1rem;
-  color: #666;
+  color: var(--color-text-muted);
   line-height: 1.8;
   text-align: justify;
 }
 .bulletPoints {
   margin-bottom: 2rem;
   font-size: 1rem;
-  color: #666;
+  color: var(--color-text-muted);
   line-height: 1.8;
   text-align: justify;
 }

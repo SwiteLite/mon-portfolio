@@ -11,10 +11,10 @@
 }
 
 .card {
-  background: white;
+  background: var(--color-bg-card);
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-md);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
   color: inherit;
@@ -23,17 +23,17 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-lg);
 }
 
 .card h2 {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #364AB0;
+  color: var(--color-primary);
 }
 
 .card p {
-  color: #666;
+  color: var(--color-text-muted);
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -41,7 +41,7 @@
 .viewMore {
   display: inline-block;
   margin-top: 1rem;
-  color: #364AB0;
+  color: var(--color-primary);
   font-weight: 600;
 }
 
@@ -50,13 +50,13 @@
 }
 .sectionTitle {
   font-size: 1.75rem;
-  color: #364AB0;
+  color: var(--color-primary);
   margin-bottom: 0.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid var(--color-border);
 }
 .sectionSubtitle {
-  color: #666;
+  color: var(--color-text-muted);
   margin-bottom: 2rem;
   font-size: 1rem;
 }
@@ -65,7 +65,7 @@
 }
 .companyName {
   font-size: 1.25rem;
-  color: #333;
+  color: var(--color-text);
   margin-bottom: 1rem;
   font-weight: 600;
 }

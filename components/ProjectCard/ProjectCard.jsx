@@ -25,7 +25,9 @@ const ProjectCard = ({project}) => {
 
                 </div>
                 <div className={styles.content}>
-                    <h2>{project.title}</h2>
+                    <h2 className={styles.title}>
+                        {project.title}
+                    </h2>
                     <p>{project.shortDescription}</p>
                     <div className={styles.tags}>
                         {project.tags.map((tech, index) => (

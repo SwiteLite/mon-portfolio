@@ -1,38 +1,43 @@
 
 .footer {
 	display: flex;
-	margin:  auto;
-	padding: 1rem 2rem;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	background-color:#364AB0;
-	
+	background-color: var(--color-primary);
 }
 
+
+.footerContainer {
+	background: inherit;
+	max-width: 1600px;  
+	width: 100%; 
+	margin: 0 auto;
+	padding: 1rem 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  }
 .name {
-	
-	margin-left: 10rem;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-	color: #FFFFFF;
+	color: var(--color-text-inverse);
 }
 
 .social {
-	margin-right: 10rem;
 	display: flex;
-	color: #FFFFFF;
+	color: var(--color-text-inverse);
 	justify-content: flex-start;
 	flex-direction: column;
 }
 
 .link {
-	color: #FFFFFF;
+	color: var(--color-text-inverse);
 	text-decoration: none;
   }
   .link:hover {
 	text-decoration: underline;
   }
-
 

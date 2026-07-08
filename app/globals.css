@@ -1,21 +1,61 @@
+:root {
+  /* Couleurs principales */
+  --color-primary: #023047;
+  --color-primary-hover: #02293d;
+  --color-secondary: #219ebc;
+  --color-accent: #fb8500;
+  --color-tertiary: #ffb703;
+  --color-gradient-end: #8ecae6;
+
+  /* Textes */
+  --color-text: #333;
+  --color-text-muted: #666;
+  --color-text-light: #555;
+  --color-text-inverse: #ffffff;
+
+  /* Fonds */
+  --color-bg: #ffffff;
+  --color-bg-muted: #f0f0f0;
+  --color-bg-subtle: #f8f9fa;
+  --color-bg-card: #ffffff;
+
+  /* Bordures */
+  --color-border: #e0e0e0;
+
+  /* Dégradés */
+  --gradient-hero: linear-gradient(135deg, var(--color-primary) 0%, var(--color-gradient-end) 100%);
+  --gradient-brand: linear-gradient(135deg, var(--color-primary) 0%, var(--color-gradient-end) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent) 0%, var(--color-tertiary) 100%);
+
+  /* Ombres */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 10px 25px rgba(0, 0, 0, 0.2);
+  --shadow-image: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --shadow-nav-mobile: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+  /* Overlays (tags sur fond coloré) */
+  --color-overlay-light: rgba(255, 255, 255, 0.1);
+  --color-overlay-light-hover: rgba(255, 255, 255, 0.2);
+  --color-overlay-border: rgba(255, 255, 255, 0.2);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), sans-serif;
   font-weight: 700;
 }
-
 body {
   font-family: var(--font-inter), sans-serif;
   font-weight: 400;
   line-height: 1.6;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
-
-
 main {
   min-height: 100vh;
 }
@@ -30,11 +70,11 @@ main {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--color-primary);
 }
 
 .description {
   font-size: 1.25rem;
-  color: #666;
+  color: var(--color-text-muted);
   margin-bottom: 3rem;
 }

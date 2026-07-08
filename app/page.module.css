@@ -5,12 +5,12 @@
   justify-content: center;
   min-height: 100vh;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--gradient-hero);
 }
 
 .imageWrapper {
   width: 100%;
-  height: 500px;              /* hauteur max fixe pour toutes les cartes */
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,14 +21,14 @@
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: cover;        /* ratio préservé, rien n'est écrasé */
+  object-fit: cover;
 }
 
 /* Contenu centré */
 .heroContent {
   max-width: 800px;
   text-align: center;
-  color: white;
+  color: var(--color-text-inverse);
 }
 
 /* Titre principal */
@@ -41,7 +41,7 @@
 
 /* Nom en surbrillance */
 .highlight {
-  color: #ffd700;
+  color: var(--color-accent);
   display: block;
 }
 
@@ -82,25 +82,25 @@
 
 /* Bouton principal */
 .btnPrimary{
-  background-color: white;
-  color: #364AB0;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
 }
 
 .btnPrimary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-xl);
 }
 
 /* Bouton secondaire */
 .btnSecondary {
   background-color: transparent;
-  color: white;
-  border: 2px solid white;
+  color: var(--color-text-inverse);
+  border: 2px solid var(--color-text-inverse);
 }
 
 .btnSecondary:hover {
-  background-color: white;
-  color: #364AB0;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
   transform: translateY(-2px);
 }
 

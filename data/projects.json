@@ -9,7 +9,7 @@
       "role": "Développeur Full Stack mobile",
       "period": "2025 - 2026",
       "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Conception full-stack d'une application de sécurité personnelle (Flutter,iOS/Android) : définition des besoins, architecture globale et UI/UX design",
+      "longDescription": "Conception full-stack d'une application de sécurité personnelle (Flutter, iOS/Android) : définition des besoins, architecture globale et UI/UX design.",
       "bulletPoints": [
         "Développement mobile Flutter",
         "Création d'une interface utilisateur intuitive et fonctionnelle",
@@ -23,7 +23,7 @@
         "height" : 2408   
       },
       "tags": ["Flutter", "iOS", "Android", "Node.js", "WebSocket"],
-      "github": "https://github.com/votre-username/taskflow",
+      "github": null,
       "demo": "https://taskflow-demo.vercel.app",
       "link": null,
       "link_text": null,

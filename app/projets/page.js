@@ -42,8 +42,12 @@ export default function Projects() {
 
         return (
           <section key={section.id} className={styles.section}>
-            <h2 className={styles.sectionTitle}>{section.title}</h2>
-            <p className={styles.sectionSubtitle}>{section.subtitle}</p>
+            <h2 className={styles.sectionTitle}>
+              {section.title} 
+            </h2>
+            <p className={styles.sectionSubtitle}>
+              {section.subtitle}
+           </p>
             
             <div className={styles.grid}>
               {projects.map((project) => (
