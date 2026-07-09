@@ -29,11 +29,12 @@
 
 .imageWrapper {
   width: 100%;
-  height: 500px;
+  height: 560px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 .image {
   max-width: 100%;

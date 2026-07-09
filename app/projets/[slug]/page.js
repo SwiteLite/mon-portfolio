@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
+import ImageCarousel from '@/components/ImageCarousel/ImageCarousel'
 import projectsData from "@/data/projects.json";
 import { notFound } from "next/navigation";
 
@@ -45,14 +46,23 @@ export default async function ProjectDetail({ params }) {
 
           <div className={styles.content}>
               <div className={styles.imageWrapper}>
-              <Image
+                {project.gallery?.length > 0 ? (
+                  <ImageCarousel
+                    images={project.gallery}
+                    alt={project.title}
+                    width={project.image_size.width}
+                    height={project.image_size.height}
+                  />
+                ) : (
+                  <Image
                     src={project.image}
                     alt={project.title}
                     width={800}
                     height={500}
                     className={styles.image}
                     preload={true}
-                />
+                  />
+                )}
               </div>
         
               <div className={styles.details}>

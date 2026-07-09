@@ -18,6 +18,14 @@
       ],
       
       "image": "/images/projets/safetizen.png",
+      "gallery": [
+        "/images/projets/safetizen_screen_connection.png",
+        "/images/projets/safetizen_screen_home_with_privacy_mode.png",
+        "/images/projets/safetizen_screen_home_dark.png",
+        "/images/projets/safetizen_screen_referents_dark.png",
+        "/images/projets/safetizen_screen_alert_is_sending.png",
+        "/images/projets/safetizen_screen_is_helping.png"
+      ],
       "image_size": {
         "width" : 1080,
         "height" : 2408   
