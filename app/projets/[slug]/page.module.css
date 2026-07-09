@@ -103,7 +103,7 @@
 }
 
 .linkPrimary {
-  background: var(--gradient-hero);
+  background: var(--gradient-accent);
   color: var(--color-text-inverse);
   border: none;
 }

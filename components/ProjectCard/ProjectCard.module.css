@@ -15,16 +15,8 @@
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
   }
-  .card {
-    background: var(--color-bg-card);
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: var(--shadow-md);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-  }
+ 
+
   .period {
     font-size: 0.875rem;
     color: var(--color-text-light);

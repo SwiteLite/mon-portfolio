@@ -23,7 +23,7 @@ export default function Navigation() {
       <div className={styles.navContainer}>
         <div className={styles.logoContainer}>
           <Link href="/" className={styles.logo} onClick={closeMenu}>
-            Mon Portfolio
+            Portfolio - Paul André
           </Link>
         </div>
 

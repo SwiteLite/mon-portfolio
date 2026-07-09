@@ -6,6 +6,7 @@
   --color-accent: #fb8500;
   --color-tertiary: #ffb703;
   --color-gradient-end: #8ecae6;
+  --color-secondary-light: #ebf5fa;
 
   /* Textes */
   --color-text: #333;
@@ -55,9 +56,14 @@ body {
   line-height: 1.6;
   background-color: var(--color-bg);
   color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 main {
-  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {

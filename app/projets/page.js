@@ -30,40 +30,42 @@ const sections = [
 
 export default function Projects() {
   return (
-    <div className="container">
-      <h1 className="title">Mes Projets</h1>
-      <p className="description">
-        Découvrez les projets sur lesquels j&apos;ai travaillé
-      </p>
+    <div className={styles.wrapper}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Mes Projets</h1>
+        <p className={styles.description}>
+          Découvrez les projets sur lesquels j&apos;ai travaillé
+        </p>
 
-      {sections.map((section) => {
-        const projects = projectsData.filter(p => p.category === section.id)
-        if (projects.length === 0) return null
+        {sections.map((section) => {
+          const projects = projectsData.filter(p => p.category === section.id)
+          if (projects.length === 0) return null
 
-        return (
-          <section key={section.id} className={styles.section}>
-            <h2 className={styles.sectionTitle}>
-              {section.title} 
-            </h2>
-            <p className={styles.sectionSubtitle}>
-              {section.subtitle}
-           </p>
-            
-            <div className={styles.grid}>
-              {projects.map((project) => (
-                <Link
-                  href={`/projets/${project.slug}`}
-                  key={project.id}
-                  className={styles.card}
-                >
-                  <ProjectCard project={project} />
-                </Link>
-              ))}
-            </div>
-            </section>
-            )
-      })}
+          return (
+            <section key={section.id} className={styles.section}>
+              <h2 className={styles.sectionTitle}>
+                {section.title} 
+              </h2>
+              <p className={styles.sectionSubtitle}>
+                {section.subtitle}
+            </p>
+              
+              <div className={styles.grid}>
+                {projects.map((project) => (
+                  <Link
+                    href={`/projets/${project.slug}`}
+                    key={project.id}
+                    className={styles.card}
+                  >
+                    <ProjectCard project={project} />
+                  </Link>
+                ))}
+              </div>
+              </section>
+              )
+        })}
 
+      </div>
     </div>
   )
 }

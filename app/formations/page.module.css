@@ -1,6 +1,11 @@
+.wrapper {
+  background-color: var(--color-secondary-light);
+  flex: 1;
+}
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
+  background: var(--color-secondary-light);
   padding: 4rem 2rem;
 }
 

@@ -1,7 +1,11 @@
+.wrapper {
+  background: var(--color-secondary-light);
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
+  
 }
 .header {
   display: flex;
@@ -10,8 +14,19 @@
   margin-bottom: 1rem;
 }
 
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
 .card {
-  background: var(--color-bg-card);
+  background: var(--color-bg);
   border-radius: 12px;
   padding: 2rem;
   box-shadow: var(--shadow-md);
@@ -19,6 +34,13 @@
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  margin-bottom: 1rem;
 }
 
 .card:hover {
