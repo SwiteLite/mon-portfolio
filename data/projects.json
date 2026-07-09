@@ -268,5 +268,67 @@
       "link": null,
       "link_text": null,
       "featured": true
+    },
+    {
+      "id": 11,
+      "slug": "la-maison-jungle",
+      "title": "La Maison Jungle - Application e-commerce React",
+      "contract": "OpenClassrooms - Débutez avec React",
+      "category": "perso",
+      "company": "OpenClassrooms",
+      "role": "Développeur front-end",
+      "period": "2026",
+      "shortDescription": "Application e-commerce de plantes : panier, filtrage par catégories et persistance avec localStorage.",
+      "longDescription": "Premier projet React réalisé dans le cadre du parcours OpenClassrooms « Débutez avec React ». Mon profil est surtout orienté systèmes embarqués, mobile et backend : ce projet m'a permis d'explorer le front-end web moderne en construisant une boutique de plantes avec gestion de panier, filtrage par catégories, formulaires contrôlés et persistance des données.",
+      "bulletPoints": [
+        "Gestion du panier : ajout, suppression et suivi des articles",
+        "Filtrage des plantes par catégories",
+        "Gestion d'état React et formulaires contrôlés",
+        "Persistance des données avec localStorage",
+        "CSS Modules et design responsive (desktop & mobile)"
+      ],
+      "image": "/images/projets/la-maison-jungle_desktop.png",
+     
+      "image_size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "tags": ["React", "Vite", "CSS Modules", "localStorage"],
+      "github": "https://github.com/SwiteLite/la-maison-jungle",
+      "demo": null,
+      "link": null,
+      "link_text": null,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "slug": "portfolio",
+      "title": "Portfolio - Site web Next.js",
+      "contract": "OpenClassrooms - Créez une app React avec Next.js",
+      "category": "perso",
+      "company": "OpenClassrooms",
+      "role": "Développeur web",
+      "period": "2026",
+      "shortDescription": "Site portfolio personnel : routing, pages dynamiques, formulaire de contact et déploiement en production.",
+      "longDescription": "Enchaînement naturel après React : le parcours OpenClassrooms « Créez une app React avec Next.js » aboutissait à la création d'un portfolio — et c'est tombé à pic. J'ai développé ce site pour présenter mon parcours d'ingénieur logiciel : avec React, j'ai compris les mécanismes ; avec Next.js, j'ai construit un vrai projet web, déployé et accessible en ligne.",
+      "bulletPoints": [
+        "Routing App Router et pages dynamiques ([slug])",
+        "Données structurées en JSON (projets, formations)",
+        "Formulaire de contact avec envoi d'email (API Route)",
+        "SEO : métadonnées et Open Graph",
+        "Thème CSS via variables et design responsive",
+        "Déploiement Vercel et domaine personnalisé"
+      ],
+      "image": "/images/accueil/paul_andre.JPG",
+      "image_size": {
+        "width": 800,
+        "height": 500
+      },
+      "tags": ["Next.js", "React", "CSS Modules", "Nodemailer", "Vercel"],
+      "github": "https://github.com/SwiteLite/mon-portfolio",
+      "demo": "https://www.paulandre-portfolio.fr",
+      "link": null,
+      "link_text": null,
+      "featured": true
     }
   ]

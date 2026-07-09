@@ -1,29 +1,48 @@
 [
-    {
-        "id": 1,
-        "title": "Master SETSIS",
-        "slug": "master",
-        "description": "Master Systèmes Embarqués pour le Traitement du Signal des Images et du Son",
-        "tags": ["Master", "Bac +5"],
-        "image": "/images/formations/logo_uca.jpg",
-        "image_size": {
-            "width" : 200,
-            "height" : 200   
-        },
-        "period": "2020-2022"
+  {
+    "id": 1,
+    "title": "Master SETSIS",
+    "slug": "master",
+    "description": "Master Systèmes Embarqués pour le Traitement du Signal des Images et du Son",
+    "shortDescription": "Master Systèmes Embarqués pour le Traitement du Signal des Images et du Son",
+    "longDescription": "Formation d'ingénieur de niveau Bac+5 spécialisée en traitement du signal, systèmes embarqués et intelligence artificielle appliquée au son et à l'image.",
+    "tags": ["Master", "Bac +5"],
+    "technologies": ["Python", "C/C++", "Linux", "OpenCV", "TensorFlow", "PyTorch", "Raspberry Pi", "C#", "Xamarin", "VHDL", "MATLAB", "LabVIEW"],
+    "modules": [
+      "Traitement du signal",
+      "Image et vision par ordinateur",
+      "Traitement et mastering du son",
+      "Intelligence artificielle et deep learning",
+      "Développement mobile",
+      "Microcontrôleurs", 
+      "Conception conjointe (matérielle et logicielle)",
+      "Programmation FPGA",
+      "Programmation GPU/CUDA",
+      "Electronique numérique",
+      "Optimisation"
+
+    ],
+    "image": "/images/formations/logo_uca.jpg",
+    "image_size": {
+      "width": 200,
+      "height": 200
     },
-    {
-        "id": 2,
-        "title": "Licence Physique",
-        "slug": "licence",
-        "description": "Licence de Physique spécialisée Sciences de l’Ingénieur ",
-        "tags": ["Licence", "Bac +3"],
-        "image": "/images/formations/logo_univ_orleans.png",
-        "image_size": {
-            "width" : 400,
-            "height" : 400   
-        },
-        "period": "2017-2020"
-    }
-   
+    "period": "2020-2022"
+  },
+  {
+    "id": 2,
+    "title": "Licence Physique",
+    "slug": "licence",
+    "description": "Licence de Physique spécialisée Sciences de l'Ingénieur",
+    "shortDescription": "Licence de Physique spécialisée Sciences de l'Ingénieur",
+    "longDescription": "Formation fondatrice en physique avec une orientation sciences de l'ingénieur, posant les bases mathématiques et scientifiques pour la suite du parcours en ingénierie.",
+    "tags": ["Licence", "Bac +3"],
+    "technologies": ["C++", "Python", "Linux", "VHDL", "MATLAB"],
+    "image": "/images/formations/logo_univ_orleans.png",
+    "image_size": {
+      "width": 400,
+      "height": 400
+    },
+    "period": "2017-2020"
+  }
 ]

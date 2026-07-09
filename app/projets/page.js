@@ -22,6 +22,11 @@ const sections = [
     subtitle: 'Premières missions en entreprise',
   },
   {
+    id: 'perso',
+    title: 'Projets Personnels',
+    subtitle: 'Cours en ligne et projets personnels',
+  },
+  {
     id: 'academique',
     title: 'Projets académiques',
     subtitle: 'Master traitement du signal & systèmes embarqués',
