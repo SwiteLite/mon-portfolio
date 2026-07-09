@@ -1,6 +1,6 @@
 'use client'
-import { useState } from 'react'
 
+import { useState } from 'react'
 import styles from './ContactForm.module.css'
 
 export default function ContactForm() {
@@ -21,22 +21,22 @@ export default function ContactForm() {
         }))
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
-
-        // Simulation d'envoi (dans un vrai projet, vous appelleriez une API)
-        setStatus('sending')
-
-        setTimeout(() => {
-            console.log('Formulaire envoyé :', formData)
-            setStatus('success')
-
-            // Réinitialiser le formulaire
-            setFormData({ name: '', email: '', message: '' })
-
-            // Masquer le message après 5 secondes
-            setTimeout(() => setStatus(''), 5000)
-        }, 1500)
+    const handleSubmit = async (e) => {
+      e.preventDefault()
+      setStatus('sending')
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData),
+        })
+        if (!res.ok) throw new Error()
+        setStatus('success')
+        setFormData({ name: '', email: '', message: '' })
+        setTimeout(() => setStatus(''), 5000)
+      } catch {
+        setStatus('error')
+      }
     }
 
     
