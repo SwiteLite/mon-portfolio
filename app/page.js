@@ -19,9 +19,7 @@ export default function Home() {
             preload={true}
           />
         </div>
-
-      
-        
+   
         <h1 className={styles.heroTitle}>
           Bonjour, je suis <span className={styles.highlight}>Paul André</span>
         </h1>

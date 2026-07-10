@@ -37,7 +37,7 @@
   }
   
   .skillCategory {
-    background: var(--color-primary);
+    background: var(--color-bg);
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: var(--shadow-sm);
@@ -60,7 +60,7 @@
   
   .skillCategory li {
     padding: 0.5rem 0;
-    color: var(--color-text-inverse);
+    color: var(--color-text);
     position: relative;
     padding-left: 1.5rem;
   }
@@ -69,6 +69,6 @@
     content: "✓";
     position: absolute;
     left: 0;
-     color: var(--color-text-inverse);
+     color: var(--color-text);
     font-weight: bold;
   }

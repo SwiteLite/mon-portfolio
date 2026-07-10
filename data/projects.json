@@ -2,19 +2,21 @@
     {
       "id": 1,
       "slug": "safetizen",
-      "title": "Safetizen - Application mobile",
+      "title": "Application mobile de protection collaborative",
       "contract": "Projet collaboratif",
       "category": "professionnel",
       "company": "Safetizen",
       "role": "Développeur Full Stack mobile",
       "period": "2025 - 2026",
-      "shortDescription": "Application mobile de protection collaborative",
-      "longDescription": "Conception full-stack d'une application de sécurité personnelle (Flutter, iOS/Android) : définition des besoins, architecture globale et UI/UX design.",
+      "shortDescription": "Application mobile de protection personnelle et solidaire en temps réel. Elle permet d'émettre une alerte géolocalisée aux proches de confiance et aux utilisateurs à proximité.",
+      "longDescription": "Safetizen est une application mobile de protection personnelle développée pour faciliter l'assistance entre proches lors d'une situation d'urgence. J'interviens sur l'ensemble de la conception technique du produit : architecture globale, développement Flutter iOS/Android, backend temps réel et la définition d'un parcours utilisateur afin de construire un MVP prêt à être déployé auprès de premiers utilisateurs.",
       "bulletPoints": [
-        "Développement mobile Flutter",
-        "Création d'une interface utilisateur intuitive et fonctionnelle",
-        "Architecture temps réel client-serveur (WebSocket), backend Node.js avec base de données PostgreSQL/PostGIS",
-        "MVP en cours de déploiement auprès de premiers utilisateurs"
+        "Conception de l'architecture globale de l'application mobile et du backend",
+        "Développement de l'application Flutter (iOS & Android)",
+        "Définition de l'interface utilisateur et amélioration continue de l'expérience utilisateur",
+        "Développement du backend Node.js avec communication temps réel via WebSocket",
+        "Participation à conception de la base de données PostgreSQL/PostGIS",
+        "Déploiement du MVP auprès des premiers utilisateurs"
       ],
       
       "image": "/images/projets/safetizen.png",
@@ -40,14 +42,14 @@
     {
       "id": 2,
       "slug": "sensivic-mobile",
-      "title": "Application mobile Android de sécurité B2B",
+      "title": "Applications mobiles de sécurité B2B",
       "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
       "role": "Développeur Full Stack mobile",
       "period": "2022 - 2025",
-      "shortDescription": "Application Android (Java) de sécurité déployée sur le Play Store, avec détection d'agressions verbales en temps réel.",
-      "longDescription": "Développement full-stack et maintenance d'une solution mobile Android destinée au B2B. L'application s'appuie sur un module natif C pour la détection d'agressions verbales et communique en temps réel avec l'infrastructure backend via MQTT.",
+      "shortDescription": "Ensemble de deux applications mobiles de sécurité (Manager et Équipier), destinées au B2B et déployées sur le Play Store",
+      "longDescription": "Il s'agit d'une solution de sécurité destinée à des équipes de sécurité ou des travailleurs isolées pouvant se faire agresser durant leur travail. L'application Équipier intègre un module natif C pour la détection d'agressions verbales en temps réel et communique en temps réel avec l'application Manager via MQTT. J'ai essentiellement participé à l'amélioration, à l'optimisation et à la refonte visuelle du produit.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
@@ -55,11 +57,11 @@
       },
       "tags": ["Java", "Android", "MQTT", "C", "JNI"],
       "bulletPoints": [
-        "Développement et maintenance de l'application Android (Java), déployée sur le Play Store.",
-        "Intégration d'un module C embarqué pour la détection d'agressions verbales en temps réel.",
-        "Refonte visuelle des applications Manager et Équipier.",
-        "Maintenance corrective et évolutions fonctionnelles sur les deux applications.",
-        "Amélioration de la communication MQTT entre managers et équipiers."
+        "Développement, maintenance et optimisation de l'application Android en Java",
+        "Intégration d'un module natif C via JNI",
+        "Refonte de l'interface des applications Manager (fomart tablette) et Équipier (format smartphone)",
+        "Développement de nouvelles fonctionnalités métier",
+        "Amélioration de la communication MQTT avec les Equipiers et le Manager"
       ],
       "github": null,
       "demo": null,
@@ -70,14 +72,14 @@
     {
       "id": 3,
       "slug": "sensivic-iot",
-      "title": "Architecture de détecteurs IoT WiFi",
+      "title": "Architecture IoT de détecteurs sonores connectés",
       "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
       "role": "Ingénieur IoT & embarqué",
       "period": "2022 - 2025",
-      "shortDescription": "Conception d'une solution embarquée communicante WiFi sur ESP32",
-      "longDescription": "Architecture de détecteurs IoT sur ESP32 (TCP/IP, WiFi) et backend Node.js : pilotage du cycle de vie complet, des spécifications au déploiement.",
+      "shortDescription": "Conception d'une architecture complète de détecteurs sonores et communicants WiFi basés sur ESP32",
+      "longDescription": "Développement de bout en bout de solutions embarqués communicantes WiFi de détections sonores (coups de feu, chocs, instrusions, outils électroportatifs, agressions verbales et cris de panique). J'ai travaillé aussi bien sur le logiciel embarqué qu'au backend de communication : pilotage du cycle de vie complet, des spécifications au déploiement.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
@@ -85,10 +87,11 @@
       },
       "tags": ["C", "ESP32", "ESP-IDF", "FreeRTOS", "Node.js", "TCP/IP", "WiFi"],
       "bulletPoints": [
-        "Développement d'un serveur de communication TCP pour la réception des données et la configuration à distance des détecteurs", 
-        "Communication TCP/IP sécurisée par chiffrement AES-256",
-        "Développement d’un site web de paramétrage embarqué",
-        "Intégration de FreeRTOS (tâches, synchronisation, watchdog, optimisation CPU),"
+        "Développement du firmware ESP32 en C", 
+        "Création d'un serveur de communication TCP/IP en Node.js, pour la réception des données et le contrôle à distance des détecteurs",
+        "Mise en oeuvre d'une communication sécurisée AES-256",
+        "Développement d'une interface web embarquée de configuration",
+        "Intégration de FreeRTOS (tâches, synchronisation, watchdog, optimisation CPU)"
       ],
       "github": null,
       "demo": null,
@@ -99,26 +102,26 @@
     {
       "id": 4,
       "slug": "sensivic-signal",
-      "title": "R&D & traitement du signal sonore",
+      "title": "Détection intelligente d'événements sonores",
       "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
       "role": "Ingénieur R&D",
       "period": "2022 - 2025",
-      "shortDescription": "Modélisation et détection d'anomalies sonores en temps réel et co-inventeur du brevet FR3161978.",
-      "longDescription": "R&D sur la détection d'événements sonores (agressions verbales, cris, coups de feu, intrusions) : modélisation en Python, portage et optimisation des algorithmes brevetés vers l'embarqué (ESP32) et le mobile (Android).",
+      "shortDescription": "Développement d'algorithmes brevetés de détection sonore temps réel.",
+      "longDescription": "Participation à la recherche et au développement d'algorithmes d'analyse sonore capables de détecter automatiquement différents événements rares (agressions verbales, cris, coups de feu). Développés sous Python, ces algorithmes de traitement du signal ont été optimisés et portés sur des systèmes embarqués (ESP32 et Android). Dans ce cadre, j'ai co-inventé un brevet sur l'acquisition temps réel du signal sonore.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["Python", "C", "Machine Learning", "ESP32", "Android"],
+      "tags": ["Python", "Numpy", "SciPy", "scikit-learn", "Machine Learning", "ESP32", "Android"],
       "bulletPoints": [
-        "Définition de modèles d'anomalies sonores : agressions verbales, cris de panique, coups de feu, intrusions.",
-        "Traitement du signal en Python : analyse, extraction de features et méthodes de machine learning.",
+        "Définition de modèles d'anomalies sonores : agressions verbales, cris de panique, coups de feu, intrusions",
+        "Développement d'algorithmes Python de traitement du signal",
         "Conception et intégration embarquée d’algorithmes brevetés de détection d’anomalies sonores en temps réel (Python → C), optimisés pour les contraintes CPU/mémoire de l'ESP32 ou du mobile Android",
-        "Campagnes terrain : acquisition sonore, tests prototypes, analyse et rédaction de rapports.",
-        "Portage Python → C des algorithmes brevetés (FR3161978), optimisés pour le temps réel."
+        "Participation aux campagnes terrain d'acquisition et de validation",
+        "Co-inventeur du brevet FR3161978"
     
       ],
       "link": "https://data.inpi.fr/brevets/FR3161978?q=#FR3161978",
@@ -129,26 +132,26 @@
     { 
       "id": 5,
       "slug": "sensivic-tools",
-      "title": "Outils internes & prototypes",
+      "title": "Outils internes de production et de supervision",
       "contract": "Sensivic - CDI",
       "category": "professionnel",
       "company": "Sensivic",
       "role": "Ingénieur logiciel — outillage & prototypes",
       "period": "2022 - 2025",
-      "shortDescription": "Outils et prototypes pour la R&D, la production et l'exploitation du parc de détecteurs — en complément des produits finaux.",
-      "longDescription": "Au fil de mon CDI, j'ai conçu de nombreux outils et prototypes pour accélérer le développement, la mise en production et la maintenance des solutions Sensivic. Il ne s'agit pas de produits commercialisés, mais d'applications, scripts et interfaces internes qui soutiennent les équipes R&D, production et support technique.",
+      "shortDescription": "Développement d'outils destinés à la production, au support technique et aux équipes R&D.",
+      "longDescription": "En complément des produits commercialisés, j'ai développé plusieurs outils internes destinés à simplifier le travail des équipes de production, de support et de R&D : interfaces de supervision, outils de flashage, scripts d'analyse ou prototypes d'applications.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
-      "tags": ["Flutter", "Node.js", "Python", "C", "Windows", "Linux"],
+      "tags": ["Flutter", "Python", "C", "Windows", "Linux"],
       "bulletPoints": [
-        "Conception d'un prototype de l'application mobile Qilpi Manager Windwows avec Flutter",
+        "Conception d'un prototype de l'application mobile Manager sous Windwows avec Flutter",
         "Développement non achevé d'une interface Flutter (Web et Windows) de configuration et de supervision d'un parc de détecteurs IoT",
-        "Outils internes de production : flashage firmware, identification et traçabilité des détecteurs.",
-        "Scripts et outils Python pour l'analyse de signaux et le support aux campagnes d'acquisition audio et de tests R&D.",
-        "Rédaction de documentation technique et de tutoriels d'utilisation pour les équipes et les clients."
+        "Développement d'outils de flashage et d'identification des détecteurs commercialisé",
+        "Conception de scripts Python pour l'analyse de signaux et tests R&D",
+        "Rédaction de documentation technique et de tutoriels d'utilisation pour les équipes et les clients"
       ],
       "github": null,
       "demo": null,
@@ -167,7 +170,7 @@
       "role": "Ingénieur Systèmes Embarqués",
       "period": "2022 - 6 mois",
       "shortDescription": "Migration d'un firmware de traitement du son de STM32 vers ESP32 en C",
-      "longDescription": "Migration d'un firmware de traitement du son de STM32 vers ESP32 en C, incluant l'intégration du protocole I2S et d'une interface web embarquée",
+      "longDescription": "Lors de mon stage de fin d'études et dans un contexte de pénurie de matériel électronique, j'ai participé à l'évaluation technique d'un nouveau microcontrôleur. J'ai ensuite pris en charge la migration complète d'un firmware de traitement du signal vers cette plateforme matérielle ESP32, permettant ainsi de meilleurs performances brutes, plus de mémoire et étendant les capacités de communication sans fil du produit.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 200,
@@ -175,10 +178,10 @@
       },
       "tags": ["C", "ESP32", "STM32", "ESP-IDF", "I2S"],
       "bulletPoints": [
-        "Migration du firmware de traitement du son de STM32 vers ESP32 (ESP-IDF, C).",
-        "Acquisition du signal sonore via le protocole I2S.",
-        "Développement d'un site web embarqué (HTML) sur ESP32.",
-        "Analyse et étude de signaux sonores en conditions réelles."
+        "Migration du firmware de traitement du son de STM32 vers ESP32 (ESP-IDF, C)",
+        "Acquisition du signal sonore via le protocole I2S",
+        "Développement d'un site web embarqué (HTML) sur ESP32",
+        "Analyse et étude de signaux sonores en conditions réelles"
       ],
       "github": null,
       "demo": null,
@@ -190,19 +193,24 @@
     {
       "id": 8,
       "slug": "cilas-stage",
-      "title": "Développement d'une IHM et asservissement moteur",
+      "title": "Banc de test optique motorisé",
       "contract": "Cilas - Stage",
       "category": "stage",
       "company": "Cilas",
       "role": "Ingénieur Informatique et automatique",
       "period": "2021 - 4 mois",
-      "shortDescription": "Développement d'une IHM (C#) et mise en place d’un système d'asservissement moteur, contrôlé par Arduino pour un banc de test optique",
-      "longDescription": "Développement d'une IHM (C#) et mise en place d’un système d'asservissement moteur, contrôlé par Arduino pour un banc de test optique",
+      "shortDescription": "Développement d'une interface de pilotage et d'un système d'asservissement moteur.",
+      "longDescription": "Développement d'une interface homme machine (C#) et mise en place d’un système d'asservissement moteur, contrôlé par Arduino pour un banc de test optique.",
       "image": "/images/projets/cilas_logo.png",
       "image_size": {
         "width" : 200,
         "height" : 200   
       },
+      "bulletPoints": [
+        "Développement de l'IHM Windows en C#",
+        "Pilotage de moteurs pas à pas via Arduino",
+        "Mise en œuvre d'un système d'asservissement"
+      ],
       "tags": ["Arduino", "C++", "C#"],
       "github": "https://github.com/votre-username/taskflow",
       "demo": "https://taskflow-demo.vercel.app",
@@ -221,7 +229,7 @@
       "role": "..",
       "period": "2022",
       "shortDescription": "Localisation et détection de sons sur Raspberry Pi 3",
-      "longDescription": "Conception d'un système embarqué sur Raspberry Pi 3 combinant traitement du signal et intelligence artificielle afin de détecter, analyser et exploiter des informations sonores en temps réel.",
+      "longDescription": "Conception d'un système embarqué sur Raspberry Pi 3 combinant traitement du signal et intelligence artificielle afin de détecter et classifier automatiquement différents types de sons en temps réel.",
       "bulletPoints": [
         "Localisation d'une source sonore avec une carte ReSpeaker",
         "Pilotage d'un moteur pas à pas selon la direction du son",
@@ -243,19 +251,19 @@
     {
       "id": 10,
       "slug": "projet-master1",
-      "title": "Hand Up Sound - Instrument de musique",
+      "title": "Hand Up Sound - Instrument de musique intéractif",
       "category": "academique",
       "contract": "Projet Master 1",
       "company": "",
       "role": "..",
       "period": "2021",
-      "shortDescription": "Instrument de musique par détection de mouvements de mains sur Raspberry Pi",
+      "shortDescription": "Instrument numérique piloté par la détection des mouvements des mains sur Raspberry Pi 3",
       "longDescription": "Ce projet, intitulé 'Hand Up Sound', vise à concevoir un instrument de musique numérique (type synthétiseur) implémenté sur un Raspberry Pi 3. L'instrument permet de jouer les notes d'une octave en détectant en temps réel la position des mains de l'utilisateur via une caméra. Le système s'appuie sur des scripts Python combinant la gestion sonore avec Sonic Pi et la vision par ordinateur avec OpenCV",
       "bulletPoints": [
-        "Contrôles : La main gauche joue do-ré-mi-fa, la main droite joue sol-la-si-do",
-        "Technologie : Détection d'image en temps réel avec OpenCV via un classifieur en cascade de Haar",
-        "Entraînement : Modèle entraîné sur Cascade Trainer GUI avec 1 790 images positives et 2 314 images négatives",
-        "Axes d'amélioration : Améliorer la détection sur arrière-plan complexe et passer de la bibliothèque pynput à pygame pour mieux gérer la durée des notes."
+        "Développement de la détection de mains avec OpenCV",
+        "Entraînement d'un classifieur Haar Cascade",
+        "Intégration avec Sonic Pi pour jouer les notes",
+        "Optimisation de la détection temps réel"
       ],
       "image": "/images/projets/hand_up_sound.png", 
       "image_size": {
@@ -270,6 +278,36 @@
       "featured": true
     },
     {
+      "id": 12,
+      "slug": "portfolio",
+      "title": "Portfolio personnel",
+      "contract": "OpenClassrooms - Créez une app React avec Next.js",
+      "category": "perso",
+      "company": "OpenClassrooms",
+      "role": "Développeur web",
+      "period": "2026",
+      "shortDescription": "Développement d'un portfolio Next.js présentant mon parcours, mes projets et mon approche de l'ingénierie logicielle.",
+      "longDescription": "Au-delà de la vitrine professionnelle, la conception de ce portfolio s'inscrit dans une démarche d'extension de mes compétences vers les architectures web modernes. Développé avec Next.js, ce projet m'a permis de maîtriser l'écosystème React à travers la construction d'une application réelle, optimisée pour le SEO et déployée en production.",
+      "bulletPoints": [
+        "Conception de l'architecture du site avec Next.js (App Router)",
+        "Développement des pages dynamiques de présentation des projets",
+        "Mise en place d'un formulaire de contact avec API Route",
+        "Optimisation du référencement (SEO, Open Graph)",
+        "Déploiement continu avec Vercel et domaine personnalisé"
+      ],
+      "image": "/images/accueil/paul_andre.JPG",
+      "image_size": {
+        "width": 800,
+        "height": 500
+      },
+      "tags": ["Next.js", "React", "CSS Modules", "Nodemailer", "Vercel"],
+      "github": "https://github.com/SwiteLite/mon-portfolio",
+      "demo": "https://www.paulandre-portfolio.fr",
+      "link": null,
+      "link_text": null,
+      "featured": true
+    },
+    {
       "id": 11,
       "slug": "la-maison-jungle",
       "title": "La Maison Jungle - Application e-commerce React",
@@ -279,7 +317,7 @@
       "role": "Développeur front-end",
       "period": "2026",
       "shortDescription": "Application e-commerce de plantes : panier, filtrage par catégories et persistance avec localStorage.",
-      "longDescription": "Premier projet React réalisé dans le cadre du parcours OpenClassrooms « Débutez avec React ». Mon profil est surtout orienté systèmes embarqués, mobile et backend : ce projet m'a permis d'explorer le front-end web moderne en construisant une boutique de plantes avec gestion de panier, filtrage par catégories, formulaires contrôlés et persistance des données.",
+      "longDescription": "Ce projet m'a permis de découvrir l'écosystème React à travers le développement d'une application e-commerce. L'objectif était de maîtriser les concepts fondamentaux (composants, état, props, formulaires, routage) avant de les réutiliser sur des projets plus ambitieux.",
       "bulletPoints": [
         "Gestion du panier : ajout, suppression et suivi des articles",
         "Filtrage des plantes par catégories",
@@ -299,36 +337,6 @@
       "link": null,
       "link_text": null,
       "featured": true
-    },
-    {
-      "id": 12,
-      "slug": "portfolio",
-      "title": "Portfolio - Site web Next.js",
-      "contract": "OpenClassrooms - Créez une app React avec Next.js",
-      "category": "perso",
-      "company": "OpenClassrooms",
-      "role": "Développeur web",
-      "period": "2026",
-      "shortDescription": "Site portfolio personnel : routing, pages dynamiques, formulaire de contact et déploiement en production.",
-      "longDescription": "Enchaînement naturel après React : le parcours OpenClassrooms « Créez une app React avec Next.js » aboutissait à la création d'un portfolio — et c'est tombé à pic. J'ai développé ce site pour présenter mon parcours d'ingénieur logiciel : avec React, j'ai compris les mécanismes ; avec Next.js, j'ai construit un vrai projet web, déployé et accessible en ligne.",
-      "bulletPoints": [
-        "Routing App Router et pages dynamiques ([slug])",
-        "Données structurées en JSON (projets, formations)",
-        "Formulaire de contact avec envoi d'email (API Route)",
-        "SEO : métadonnées et Open Graph",
-        "Thème CSS via variables et design responsive",
-        "Déploiement Vercel et domaine personnalisé"
-      ],
-      "image": "/images/accueil/paul_andre.JPG",
-      "image_size": {
-        "width": 800,
-        "height": 500
-      },
-      "tags": ["Next.js", "React", "CSS Modules", "Nodemailer", "Vercel"],
-      "github": "https://github.com/SwiteLite/mon-portfolio",
-      "demo": "https://www.paulandre-portfolio.fr",
-      "link": null,
-      "link_text": null,
-      "featured": true
     }
+  
   ]

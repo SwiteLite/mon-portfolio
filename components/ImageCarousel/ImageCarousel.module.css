@@ -64,7 +64,7 @@
 }
 
 .slide.next {
-  transform: translate(calc(-70% + 108%), -50%) scale(0.82);
+  transform: translate(calc(-60% + 108%), -50%) scale(0.82);
   opacity: 0.55;
   z-index: 1;
   pointer-events: auto;
