@@ -32,6 +32,15 @@ export default function Contact() {
                 Mon profil GitHub
               </a>
             </div>
+            <div className={styles.infoItem}>
+             <strong>Mon CV :</strong>
+              <a
+                href="/documents/cv-paul-andre-ingenieur-logiciel-2026-07-10.pdf"
+                download="CV_Paul_Andre.pdf"
+                >
+                Télécharger mon CV
+              </a>
+            </div>
           </div>
           <ContactForm/>
         </div>

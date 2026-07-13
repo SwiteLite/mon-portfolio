@@ -43,7 +43,16 @@ export default function Home() {
           <a href="contact" className={`${styles.btn} ${styles.btnSecondary}`}>
             Me contacter
           </a>
+          
         </div>
+        <a
+          href="/documents/cv-paul-andre-ingenieur-logiciel-2026-07-10.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.cvLink}
+        >
+          Voir mon CV
+        </a>
       </div>
      
     </div>
