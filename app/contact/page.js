@@ -26,12 +26,15 @@ export default function Contact() {
                 Mon profil LinkedIn
               </a>
             </div>
+           {/*
             <div className={styles.infoItem}>
               <strong>GitHub :</strong>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                 Mon profil GitHub
               </a>
             </div>
+           */}
+       
             <div className={styles.infoItem}>
              <strong>Mon CV :</strong>
               <a

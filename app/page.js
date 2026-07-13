@@ -24,7 +24,10 @@ export default function Home() {
           Bonjour, je suis <span className={styles.highlight}>Paul André</span>
         </h1>
         <p className={styles.heroSubtitle}>
-          Ingénieur Logiciel 
+          Ingénieur logiciel - 4 ans d&apos;expérience
+        </p>
+        <p className={styles.availability}>
+         Ouvert aux opportunités · Orléans & hybride Paris
         </p>
         <p className={styles.heroDescription}>
           Je crée des produits logiciels de bout en bout. Mon profil est surtout orienté systèmes embarqués, mobile et backend, mais depuis je l'élargis aux applications web modernes.

@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .image {
   max-width: 100%;
@@ -35,7 +35,7 @@
 .heroTitle {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   line-height: 1.2;
 }
 
@@ -49,14 +49,33 @@
 .heroSubtitle {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   opacity: 0.9;
+}
+
+.availability {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.availability::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #4ade80;
+  flex-shrink: 0;
 }
 
 /* Description */
 .heroDescription {
   font-size: 1.125rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   opacity: 0.85;
   line-height: 1.8;
 }
@@ -67,6 +86,7 @@
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
 
 /* Style de base des boutons */
@@ -109,11 +129,11 @@
 }
 .cvLink {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   color: inherit;
   font-size: 0.95rem;
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: underline;
   text-underline-offset: 0.25em;
   opacity: 0.85;
   transition: opacity 0.2s ease;
@@ -129,9 +149,7 @@
   gap: 0.75rem;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
+  margin-bottom: 2.5rem;
 }
 
 /* Responsive : mobile */

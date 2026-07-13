@@ -11,7 +11,7 @@ export default function About() {
             <h2>Qui suis-je ?</h2>
             <p>
             Ingénieur logiciel avec 4 ans d&apos;expérience en startup. 
-            Mon expertise n&apos;est pas liée à un seul langage, 
+            Mon expertise n&apos;est pas liée à un seul langage ou à une seule technologie, 
             mais à la compréhension du besoin et à l&apos;architecture globale :
             du traitement du signal et de l&apos;embarqué aux applications mobiles et au backend. 
             Je transforme un besoin en produit, du prototype à la mise en production. 

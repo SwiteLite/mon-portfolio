@@ -5,7 +5,7 @@
     "slug": "master",
     "description": "Master Systèmes Embarqués pour le Traitement du Signal des Images et du Son",
     "shortDescription": "Master Systèmes Embarqués pour le Traitement du Signal des Images et du Son",
-    "longDescription": "Formation d'ingénieur de niveau Bac+5 spécialisée en traitement du signal, systèmes embarqués et intelligence artificielle appliquée au son et à l'image.",
+    "longDescription": "Master de niveau Bac+5 spécialisé en traitement du signal, systèmes embarqués et intelligence artificielle appliquée au son et à l'image.",
     "tags": ["Master", "Bac +5"],
     "technologies": ["Python", "C/C++", "Linux", "OpenCV", "TensorFlow", "PyTorch", "Raspberry Pi", "C#", "Xamarin", "VHDL", "MATLAB", "LabVIEW"],
     "modules": [
@@ -24,8 +24,8 @@
     ],
     "image": "/images/formations/logo_uca.jpg",
     "image_size": {
-      "width": 200,
-      "height": 200
+      "width": 160,
+      "height": 160
     },
     "period": "2020-2022"
   },
@@ -35,7 +35,7 @@
     "slug": "licence",
     "description": "Licence de Physique spécialisée Sciences de l'Ingénieur",
     "shortDescription": "Licence de Physique spécialisée Sciences de l'Ingénieur",
-    "longDescription": "Formation fondatrice en physique avec une orientation sciences de l'ingénieur, posant les bases mathématiques et scientifiques pour la suite du parcours en ingénierie.",
+    "longDescription": "Licence de physique orientée sciences de l'ingénieur : mathématiques appliquées, programmation, électronique numérique, traitement du signal...",
     "tags": ["Licence", "Bac +3"],
     "technologies": ["C++", "Python", "Linux", "VHDL", "MATLAB"],
     "image": "/images/formations/logo_univ_orleans.png",

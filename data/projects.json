@@ -15,7 +15,7 @@
         "Développement de l'application Flutter (iOS & Android)",
         "Définition de l'interface utilisateur et amélioration continue de l'expérience utilisateur",
         "Développement du backend Node.js avec communication temps réel via WebSocket",
-        "Participation à conception de la base de données PostgreSQL/PostGIS",
+        "Participation à la conception de la base de données PostgreSQL/PostGIS",
         "Déploiement du MVP auprès des premiers utilisateurs"
       ],
       
@@ -34,7 +34,7 @@
       },
       "tags": ["Flutter", "iOS", "Android", "Node.js", "WebSocket"],
       "github": null,
-      "demo": "https://taskflow-demo.vercel.app",
+      "demo": null,
       "link": null,
       "link_text": null,
       "featured": true
@@ -48,11 +48,11 @@
       "company": "Sensivic",
       "role": "Développeur Full Stack mobile",
       "period": "2022 - 2025",
-      "shortDescription": "Ensemble de deux applications mobiles de sécurité (Manager et Équipier), destinées au B2B et déployées sur le Play Store",
+      "shortDescription": "Ensemble de deux applications mobiles de sécurité (Manager et Équipier), destinées au B2B et déployées sur le Play Store.",
       "longDescription": "Il s'agit d'une solution de sécurité destinée à des équipes de sécurité ou des travailleurs isolées pouvant se faire agresser durant leur travail. L'application Équipier intègre un module natif C pour la détection d'agressions verbales en temps réel et communique en temps réel avec l'application Manager via MQTT. J'ai essentiellement participé à l'amélioration, à l'optimisation et à la refonte visuelle du produit.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
-        "width" : 200,
+        "width" : 300,
         "height" : 200   
       },
       "tags": ["Java", "Android", "MQTT", "C", "JNI"],
@@ -78,11 +78,11 @@
       "company": "Sensivic",
       "role": "Ingénieur IoT & embarqué",
       "period": "2022 - 2025",
-      "shortDescription": "Conception d'une architecture complète de détecteurs sonores et communicants WiFi basés sur ESP32",
-      "longDescription": "Développement de bout en bout de solutions embarqués communicantes WiFi de détections sonores (coups de feu, chocs, instrusions, outils électroportatifs, agressions verbales et cris de panique). J'ai travaillé aussi bien sur le logiciel embarqué qu'au backend de communication : pilotage du cycle de vie complet, des spécifications au déploiement.",
+      "shortDescription": "Conception d'une architecture complète de détecteurs sonores et communicants WiFi basés sur ESP32.",
+      "longDescription": "Développement de bout en bout de solutions embarqués communicantes WiFi de détections sonores (coups de feu, chocs, instrusions, outils électroportatifs, agressions verbales et cris de panique). J'ai travaillé aussi bien sur le logiciel embarqué que sur le backend de communication : pilotage du cycle de vie complet, des spécifications au déploiement.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
-        "width" : 200,
+        "width" : 300,
         "height" : 200   
       },
       "tags": ["C", "ESP32", "ESP-IDF", "FreeRTOS", "Node.js", "TCP/IP", "WiFi"],
@@ -112,7 +112,7 @@
       "longDescription": "Participation à la recherche et au développement d'algorithmes d'analyse sonore capables de détecter automatiquement différents événements rares (agressions verbales, cris, coups de feu). Développés sous Python, ces algorithmes de traitement du signal ont été optimisés et portés sur des systèmes embarqués (ESP32 et Android). Dans ce cadre, j'ai co-inventé un brevet sur l'acquisition temps réel du signal sonore.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
-        "width" : 200,
+        "width" : 300,
         "height" : 200   
       },
       "tags": ["Python", "Numpy", "SciPy", "scikit-learn", "Machine Learning", "ESP32", "Android"],
@@ -139,10 +139,10 @@
       "role": "Ingénieur logiciel — outillage & prototypes",
       "period": "2022 - 2025",
       "shortDescription": "Développement d'outils destinés à la production, au support technique et aux équipes R&D.",
-      "longDescription": "En complément des produits commercialisés, j'ai développé plusieurs outils internes destinés à simplifier le travail des équipes de production, de support et de R&D : interfaces de supervision, outils de flashage, scripts d'analyse ou prototypes d'applications.",
+      "longDescription": "En complément des produits commercialisés, j'ai développé plusieurs outils internes destinés à simplifier le travail des POC, de production, de support et de R&D : interfaces de supervision, outils de flashage, scripts d'analyse ou prototypes d'applications...",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
-        "width" : 200,
+        "width" : 300,
         "height" : 200   
       },
       "tags": ["Flutter", "Python", "C", "Windows", "Linux"],
@@ -169,11 +169,11 @@
       "company": "Sensivic",
       "role": "Ingénieur Systèmes Embarqués",
       "period": "2022 - 6 mois",
-      "shortDescription": "Migration d'un firmware de traitement du son de STM32 vers ESP32 en C",
+      "shortDescription": "Migration d'un firmware de traitement du son de STM32 vers ESP32 en C.",
       "longDescription": "Lors de mon stage de fin d'études et dans un contexte de pénurie de matériel électronique, j'ai participé à l'évaluation technique d'un nouveau microcontrôleur. J'ai ensuite pris en charge la migration complète d'un firmware de traitement du signal vers cette plateforme matérielle ESP32, permettant ainsi de meilleurs performances brutes, plus de mémoire et étendant les capacités de communication sans fil du produit.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
-        "width" : 200,
+        "width" : 300,
         "height" : 200   
       },
       "tags": ["C", "ESP32", "STM32", "ESP-IDF", "I2S"],
@@ -203,7 +203,7 @@
       "longDescription": "Développement d'une interface homme machine (C#) et mise en place d’un système d'asservissement moteur, contrôlé par Arduino pour un banc de test optique.",
       "image": "/images/projets/cilas_logo.png",
       "image_size": {
-        "width" : 200,
+        "width" : 300,
         "height" : 200   
       },
       "bulletPoints": [
@@ -212,8 +212,8 @@
         "Mise en œuvre d'un système d'asservissement"
       ],
       "tags": ["Arduino", "C++", "C#"],
-      "github": "https://github.com/votre-username/taskflow",
-      "demo": "https://taskflow-demo.vercel.app",
+      "github": null,
+      "demo": null,
       "link": null,
       "link_text": null,
       "featured": true
@@ -228,7 +228,7 @@
       "company": "",
       "role": "..",
       "period": "2022",
-      "shortDescription": "Localisation et détection de sons sur Raspberry Pi 3",
+      "shortDescription": "Localisation et détection de sons sur Raspberry Pi 3.",
       "longDescription": "Conception d'un système embarqué sur Raspberry Pi 3 combinant traitement du signal et intelligence artificielle afin de détecter et classifier automatiquement différents types de sons en temps réel.",
       "bulletPoints": [
         "Localisation d'une source sonore avec une carte ReSpeaker",
@@ -239,7 +239,7 @@
 
       "image": "/images/projets/projet_master2.jpg",
       "image_size": {
-        "width" : 200,
+        "width" : 500,
         "height" : 200   
       },
       "tags": ["Python", "Tensorflow", "Keras", "Pydub", "Librosa", "Pyaudio"],
@@ -257,7 +257,7 @@
       "company": "",
       "role": "..",
       "period": "2021",
-      "shortDescription": "Instrument numérique piloté par la détection des mouvements des mains sur Raspberry Pi 3",
+      "shortDescription": "Instrument numérique piloté par la détection des mouvements des mains sur Raspberry Pi 3.",
       "longDescription": "Ce projet, intitulé 'Hand Up Sound', vise à concevoir un instrument de musique numérique (type synthétiseur) implémenté sur un Raspberry Pi 3. L'instrument permet de jouer les notes d'une octave en détectant en temps réel la position des mains de l'utilisateur via une caméra. Le système s'appuie sur des scripts Python combinant la gestion sonore avec Sonic Pi et la vision par ordinateur avec OpenCV",
       "bulletPoints": [
         "Développement de la détection de mains avec OpenCV",
@@ -267,7 +267,7 @@
       ],
       "image": "/images/projets/hand_up_sound.png", 
       "image_size": {
-        "width" : 200,
+        "width" : 600,
         "height" : 200   
       },
       "tags": ["Raspberry Pi", "Python", "Sonic Pi", "OpenCV"],
@@ -295,10 +295,10 @@
         "Optimisation du référencement (SEO, Open Graph)",
         "Déploiement continu avec Vercel et domaine personnalisé"
       ],
-      "image": "/images/accueil/paul_andre.JPG",
+      "image": "/images/projets/portfolio_picture.jpg",
       "image_size": {
-        "width": 800,
-        "height": 500
+        "width": 200,
+        "height": 200
       },
       "tags": ["Next.js", "React", "CSS Modules", "Nodemailer", "Vercel"],
       "github": "https://github.com/SwiteLite/mon-portfolio",
@@ -310,7 +310,7 @@
     {
       "id": 11,
       "slug": "la-maison-jungle",
-      "title": "La Maison Jungle - Application e-commerce React",
+      "title": "Application e-commerce React",
       "contract": "OpenClassrooms - Débutez avec React",
       "category": "perso",
       "company": "OpenClassrooms",
@@ -325,7 +325,7 @@
         "Persistance des données avec localStorage",
         "CSS Modules et design responsive (desktop & mobile)"
       ],
-      "image": "/images/projets/la-maison-jungle_desktop.png",
+      "image": "/images/projets/la_maison_jungle.png",
      
       "image_size": {
         "width": 1920,
