@@ -30,7 +30,7 @@ export default function Home() {
          Ouvert aux opportunités · Orléans & hybride Paris
         </p>
         <p className={styles.heroDescription}>
-          Je crée des produits logiciels de bout en bout. Mon profil est surtout orienté systèmes embarqués, mobile et backend, mais depuis je l'élargis aux applications web modernes.
+          Je crée des produits logiciels de bout en bout. Mon profil est surtout orienté systèmes embarqués, mobile et backend, et je l'élargis aux applications web modernes.
         </p>
 
         <div className={styles.tagsContainer}>

@@ -9,6 +9,13 @@
     gap: 3rem;
   }
   
+  .container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+
   .contactInfo {
     background: var(--color-bg-subtle);
     padding: 2rem;

@@ -10,16 +10,11 @@ export default function About() {
           <div className={styles.bio}>
             <h2>Qui suis-je ?</h2>
             <p>
-            Ingénieur logiciel avec 4 ans d&apos;expérience en startup. 
-            Mon expertise n&apos;est pas liée à un seul langage ou à une seule technologie, 
-            mais à la compréhension du besoin et à l&apos;architecture globale :
-            du traitement du signal et de l&apos;embarqué aux applications mobiles et au backend. 
-            Je transforme un besoin en produit, du prototype à la mise en production. 
-            Aujourd&apos;hui j&apos;élargis mon profil vers le web moderne (React, Next.js).
-            </p>
-            <p>
-              J&apos;aime transformer des idées en produits concrets qui résolvent
-              de vrais problèmes utilisateurs.
+            Ingénieur Logiciel avec 4 ans d&apos;expérience en startup, mon expertise n&apos;est pas dans un langage ou une technologie mais dans la compréhension du besoin et l&apos;architecture globale : 
+            du traitement du signal et de l&apos;embarqué aux applications mobiles et au backend.
+            J&apos;aime construire des produits complets de bout en bout qui répondent à de vrais enjeux sur le terrain, où l&apos;impact réel guide la technique.
+            <br />
+            Aujourd&apos;hui j&apos;élargis mon profil vers le web moderne (React, Next.js), avec la même approche : comprendre le besoin, prototyper vite, livrer un produit abouti.
             </p>
           </div>
 
@@ -41,7 +36,7 @@ export default function About() {
                 <ul>
                   <li>Node.js</li>
                   <li>TCP/IP, MQTT</li>
-                  <li>API REST, WebSocke</li>
+                  <li>API REST, WebSocket</li>
                   <li>PostgreSQL/PostGIS</li>
                 </ul>
               </div>
@@ -67,7 +62,7 @@ export default function About() {
               <div className={styles.skillCategory}>
                 <h3>Outils et environnements</h3>
                 <ul>
-                  <li>Git (Gitlab), Jira, Figma</li>
+                  <li>Git (GitLab), Jira, Figma</li>
                   <li>VS Code, Android Studio, Cursor</li>
                   <li>Linux</li>
                 </ul>

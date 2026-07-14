@@ -49,7 +49,7 @@
       "role": "Développeur Full Stack mobile",
       "period": "2022 - 2025",
       "shortDescription": "Ensemble de deux applications mobiles de sécurité (Manager et Équipier), destinées au B2B et déployées sur le Play Store.",
-      "longDescription": "Il s'agit d'une solution de sécurité destinée à des équipes de sécurité ou des travailleurs isolées pouvant se faire agresser durant leur travail. L'application Équipier intègre un module natif C pour la détection d'agressions verbales en temps réel et communique en temps réel avec l'application Manager via MQTT. J'ai essentiellement participé à l'amélioration, à l'optimisation et à la refonte visuelle du produit.",
+      "longDescription": "Il s'agit d'une solution de sécurité destinée à des équipes de sécurité ou des travailleurs isolés pouvant se faire agresser durant leur travail. L'application Équipier intègre un module natif C pour la détection d'agressions verbales en temps réel et communique en temps réel avec l'application Manager via MQTT. J'ai essentiellement participé à l'amélioration, à l'optimisation et à la refonte visuelle du produit.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 300,
@@ -59,9 +59,9 @@
       "bulletPoints": [
         "Développement, maintenance et optimisation de l'application Android en Java",
         "Intégration d'un module natif C via JNI",
-        "Refonte de l'interface des applications Manager (fomart tablette) et Équipier (format smartphone)",
+        "Refonte de l'interface des applications Manager (format tablette) et Équipier (format smartphone)",
         "Développement de nouvelles fonctionnalités métier",
-        "Amélioration de la communication MQTT avec les Equipiers et le Manager"
+        "Amélioration de la communication MQTT avec les Équipiers et le Manager"
       ],
       "github": null,
       "demo": null,
@@ -79,7 +79,7 @@
       "role": "Ingénieur IoT & embarqué",
       "period": "2022 - 2025",
       "shortDescription": "Conception d'une architecture complète de détecteurs sonores et communicants WiFi basés sur ESP32.",
-      "longDescription": "Développement de bout en bout de solutions embarqués communicantes WiFi de détections sonores (coups de feu, chocs, instrusions, outils électroportatifs, agressions verbales et cris de panique). J'ai travaillé aussi bien sur le logiciel embarqué que sur le backend de communication : pilotage du cycle de vie complet, des spécifications au déploiement.",
+      "longDescription": "Développement de bout en bout de solutions embarquées communicantes WiFi de détections sonores (coups de feu, chocs, intrusions, outils électroportatifs, agressions verbales et cris de panique). J'ai travaillé aussi bien sur le logiciel embarqué que sur le backend de communication : pilotage du cycle de vie complet, des spécifications au déploiement.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 300,
@@ -89,7 +89,7 @@
       "bulletPoints": [
         "Développement du firmware ESP32 en C", 
         "Création d'un serveur de communication TCP/IP en Node.js, pour la réception des données et le contrôle à distance des détecteurs",
-        "Mise en oeuvre d'une communication sécurisée AES-256",
+        "Mise en œuvre d'une communication sécurisée AES-256",
         "Développement d'une interface web embarquée de configuration",
         "Intégration de FreeRTOS (tâches, synchronisation, watchdog, optimisation CPU)"
       ],
@@ -125,7 +125,7 @@
     
       ],
       "link": "https://data.inpi.fr/brevets/FR3161978?q=#FR3161978",
-      "link_text": "le Brevet FR3161978",
+      "link_text": "le brevet FR3161978",
       "demo": null,
       "featured": true
     },
@@ -147,9 +147,9 @@
       },
       "tags": ["Flutter", "Python", "C", "Windows", "Linux"],
       "bulletPoints": [
-        "Conception d'un prototype de l'application mobile Manager sous Windwows avec Flutter",
+        "Conception d'un prototype de l'application mobile Manager sous Windows avec Flutter",
         "Développement non achevé d'une interface Flutter (Web et Windows) de configuration et de supervision d'un parc de détecteurs IoT",
-        "Développement d'outils de flashage et d'identification des détecteurs commercialisé",
+        "Développement d'outils de flashage et d'identification des détecteurs commercialisés",
         "Conception de scripts Python pour l'analyse de signaux et tests R&D",
         "Rédaction de documentation technique et de tutoriels d'utilisation pour les équipes et les clients"
       ],
@@ -170,7 +170,7 @@
       "role": "Ingénieur Systèmes Embarqués",
       "period": "2022 - 6 mois",
       "shortDescription": "Migration d'un firmware de traitement du son de STM32 vers ESP32 en C.",
-      "longDescription": "Lors de mon stage de fin d'études et dans un contexte de pénurie de matériel électronique, j'ai participé à l'évaluation technique d'un nouveau microcontrôleur. J'ai ensuite pris en charge la migration complète d'un firmware de traitement du signal vers cette plateforme matérielle ESP32, permettant ainsi de meilleurs performances brutes, plus de mémoire et étendant les capacités de communication sans fil du produit.",
+      "longDescription": "Lors de mon stage de fin d'études et dans un contexte de pénurie de matériel électronique, j'ai participé à l'évaluation technique d'un nouveau microcontrôleur. J'ai ensuite pris en charge la migration complète d'un firmware de traitement du signal vers cette plateforme matérielle ESP32, permettant ainsi de meilleures performances brutes, plus de mémoire et étendant les capacités de communication sans fil du produit.",
       "image": "/images/projets/sensivic_logo.jpg",
       "image_size": {
         "width" : 300,
@@ -200,7 +200,7 @@
       "role": "Ingénieur Informatique et automatique",
       "period": "2021 - 4 mois",
       "shortDescription": "Développement d'une interface de pilotage et d'un système d'asservissement moteur.",
-      "longDescription": "Développement d'une interface homme machine (C#) et mise en place d’un système d'asservissement moteur, contrôlé par Arduino pour un banc de test optique.",
+      "longDescription": "Développement d'une interface homme-machine (C#) et mise en place d’un système d'asservissement moteur, contrôlé par Arduino pour un banc de test optique.",
       "image": "/images/projets/cilas_logo.png",
       "image_size": {
         "width" : 300,
@@ -251,7 +251,7 @@
     {
       "id": 10,
       "slug": "projet-master1",
-      "title": "Hand Up Sound - Instrument de musique intéractif",
+      "title": "Hand Up Sound - Instrument de musique interactif",
       "category": "academique",
       "contract": "Projet Master 1",
       "company": "",
