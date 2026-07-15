@@ -3,6 +3,7 @@ import { Inter, Poppins } from 'next/font/google'
 import Navigation from "@/components/Navigation/Navigation"
 import Footer from "@/components/Footer/Footer"
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 
 
 // Configurer Inter pour le texte courant
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
        <Navigation />
         <main>{children}</main>
         <Footer/>
+        <Analytics />
        </body>
       
     </html>
