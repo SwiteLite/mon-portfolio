@@ -9,7 +9,7 @@
       "role": "Développeur Full Stack mobile",
       "period": "2025 - 2026",
       "shortDescription": "Application mobile de protection personnelle et solidaire en temps réel. Elle permet d'émettre une alerte géolocalisée aux proches de confiance et aux utilisateurs à proximité.",
-      "longDescription": "Safetizen est une application mobile de protection personnelle développée pour faciliter l'assistance entre proches lors d'une situation d'urgence. J'interviens sur l'ensemble de la conception technique du produit : architecture globale, développement Flutter iOS/Android, backend temps réel et la définition d'un parcours utilisateur afin de construire un MVP prêt à être déployé auprès de premiers utilisateurs.",
+      "longDescription": "C'est une application mobile de protection personnelle développée pour faciliter l'assistance entre proches lors d'une situation d'urgence. J'interviens sur l'ensemble de la conception technique du produit : architecture globale, développement Flutter iOS/Android, backend temps réel et la définition d'un parcours utilisateur afin de construire un MVP prêt à être déployé auprès de premiers utilisateurs.",
       "bulletPoints": [
         "Conception de l'architecture globale de l'application mobile et du backend",
         "Développement de l'application Flutter (iOS & Android)",

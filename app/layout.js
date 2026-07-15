@@ -23,7 +23,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Portfolio de Paul ANDRÉ",
-  description: "Développeur full stack",
+  description: "Ingénieur Logiciel",
 };
 
 export default function RootLayout({ children }) {
