@@ -1,11 +1,11 @@
 [
     {
       "id": 1,
-      "slug": "safetizen",
+      "slug": "projet_collaboratif",
       "title": "Application mobile de protection collaborative",
       "contract": "Projet collaboratif",
       "category": "professionnel",
-      "company": "Safetizen",
+      "company": "Projet_collaboratif",
       "role": "Développeur Full Stack mobile",
       "period": "2025 - 2026",
       "shortDescription": "Application mobile de protection personnelle et solidaire en temps réel. Elle permet d'émettre une alerte géolocalisée aux proches de confiance et aux utilisateurs à proximité.",
