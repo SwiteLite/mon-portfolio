@@ -64,7 +64,7 @@ export default function About() {
                 <ul>
                   <li>Git (GitLab), Jira, Figma</li>
                   <li>VS Code, Android Studio, Cursor</li>
-                  <li>Linux</li>
+                  <li>Linux, Docker</li>
                 </ul>
               </div>
             </div>

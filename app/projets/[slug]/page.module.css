@@ -101,6 +101,15 @@
   color: var(--color-text-inverse);
   border: none;
 }
+
+.status {
+  margin: 0;
+  padding: 0.875rem 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
 .longDescription {
   margin-bottom: 2rem;
   font-size: 1rem;

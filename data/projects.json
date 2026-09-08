@@ -278,7 +278,7 @@
       "featured": true
     },
     {
-      "id": 12,
+      "id": 11,
       "slug": "portfolio",
       "title": "Portfolio personnel",
       "contract": "OpenClassrooms - Créez une app React avec Next.js",
@@ -308,7 +308,49 @@
       "featured": true
     },
     {
-      "id": 11,
+      "id": 12,
+      "slug": "foodconnect",
+      "title": "FoodConnect - suivi des DLC",
+      "contract": "Projet personnel enc rouc",
+      "category": "perso",
+      "company": "Projet personnel",
+      "role": "Développeur full-stack mobile",
+      "period": "2026",
+      "shortDescription": "Application mobile Flutter pour le suivi des dates de péremption, avec API Node.js/PostgreSQL pour synchroniser la liste d’aliments d’un foyer sur plusieurs téléphones.",
+      "longDescription": "J'en avais un peu marre de devoir jeter des aliments périmés. Des applications existent déjà, mais pas forcément avec les fonctionnalités que je souhaitais. J'ai donc développé ma propre app FoodConnect, totalement intégrable dans ma domotique. Le client Flutter permet d'ajouter des produits (scan codes-barres et lecture DLC), avec une base de données locale. Côté serveur, une API Express/PostgreSQL déployée en Docker sur un serveur local assurant la synchronisation multi-appareils.",
+      "bulletPoints": [
+        "Développement de l'application Flutter (Android) : liste, filtres, historique et gestes swipe",
+        "Scan de codes-barres et enrichissement produit via Open Food Facts",
+        "Lecture OCR des DLC avec la caméra (Google ML Kit)",
+        "Mode offline-first avec stockage local (Drift/SQLite) et notifications de rappel",
+        "API REST Node.js/Express + PostgreSQL pour la synchronisation multi-appareils",
+        "Déploiement local en Docker Compose (API + base de données) et intégré à la domotique"
+      ],
+      "image": "/images/projets/foodconnect_screen_home_page.png",
+      "gallery": [
+        "/images/projets/foodconnect_screen_home_page.png",
+        "/images/projets/foodconnect_screen_food.png",
+        "/images/projets/foodconnect_screen_add_food.png"
+      ],
+      "image_size": {
+        "width": 864,
+        "height": 1920
+      },
+      "tags": [
+        "Flutter",   
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "github": null,
+      "demo": null,
+      "link": null,
+      "link_text": "Projet en cours · GitHub bientôt disponible",
+      "featured": true
+    },
+    {
+      "id": 13,
       "slug": "la-maison-jungle",
       "title": "Application e-commerce React",
       "contract": "OpenClassrooms - Débutez avec React",
@@ -338,4 +380,5 @@
       "link_text": null,
       "featured": true
     }
+    
 ]

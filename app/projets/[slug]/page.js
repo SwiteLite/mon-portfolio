@@ -93,7 +93,7 @@ export default async function ProjectDetail({ params }) {
                     ))}
                 </div>
                 
-                {(project.github || project.demo || project.link) && (
+                {(project.github || project.demo || project.link || project.link_text) && (
                   <div className={styles.links}>
                     {project.github && (
                       <a
@@ -124,6 +124,9 @@ export default async function ProjectDetail({ params }) {
                       >
                         Voir {project.link_text} →
                       </a>
+                    )}
+                    {!project.link && !project.github && project.link_text && (
+                      <p className={styles.status}>{project.link_text}</p>
                     )}
                   </div>
                 )}
