@@ -49,7 +49,7 @@ export default function Home() {
           
         </div>
         <a
-          href="/documents/cv-paul-andre-ingenieur-logiciel-2026-09-08.pdf"
+          href="/documents/cv-paul-andre-ingenieur-logiciel-2026-10-14.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.cvLink}

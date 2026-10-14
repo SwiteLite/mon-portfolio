@@ -38,7 +38,7 @@ export default function Contact() {
             <div className={styles.infoItem}>
              <strong>Mon CV :</strong>
               <a
-                href="/documents/cv-paul-andre-ingenieur-logiciel-2026-09-08.pdf"
+                href="/documents/cv-paul-andre-ingenieur-logiciel-2026-10-14.pdf"
                 download="CV_Paul_Andre.pdf"
                 >
                 Télécharger mon CV
